@@ -65,6 +65,6 @@ for relative, digest in old.items():
         if hashlib.sha256(target.read_bytes()).hexdigest() != digest:
             raise SystemExit(f'Preserve local changes before removing stale export: {target}')
         target.unlink()
-metadata = {'generated_by': 'commonplace-static-export-v1', 'source_repository': 'https://github.com/Rhys-Lindmark/commonplace', 'source_commit': revision, 'base_path': base, 'files': files}
+metadata = {'generated_by': 'commonplace-static-export-v1', 'source_repository': 'https://github.com/Rhys-Lindmark/commonplace-source', 'source_commit': revision, 'base_path': base, 'files': files}
 marker.write_text(json.dumps(metadata, sort_keys=True, indent=2) + '\n')
 print(json.dumps({'destination': str(destination), 'source_commit': revision, 'file_count': len(files), 'updated_files': updated}))
