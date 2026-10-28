@@ -1,0 +1,56 @@
+# Reviewed work-date references
+
+Research phase completed 2026-10-26 for the current **102,444-record** library. [reference-dates.json](reference-dates.json) contains 25 author-and-work rules: 21 ancient work groups, three modern works confirming the seven existing dated records, and the Bentley correction. Sequential chunk validation found **107 matching records** in direct source/description fields. Every dated rule has at least one actual corpus match; no date is assigned merely because an author is ancient.
+
+The manager owns application, parser, index, full-catalog classification and deployment. These two research artifacts do not modify quote text, IDs, likes, q.year, or any published asset.
+
+## Matching and interpretation
+
+A rule needs both its author pattern and an explicit work title in `source` or `provenance.descriptions`; flags are case-insensitive. `observedContexts`, `sampleIds` and `matchCount` document current hits. Quotation text is never a work-title matching field. Titles found only in citation prose need manual review: a citation can mention another work, a comparison, a modern anthology, or a translation rather than identify the quoted original.
+
+Negative years mean BCE; there is no year zero. Ranges and circa labels are required output, not optional display hints. Dates identify a work's composition, textual formation, compilation or first performance/publication; they do not establish when every quoted phrase was first spoken or when its English wording was translated. `disputed:true` is explicit. Broad envelopes are editorial representations of uncertainty, not statistical confidence intervals. Preserve modern edition/source dates separately. Keep all seven existing `q.year` values; new chronology metadata can qualify the other records without pretending an exact known original year.
+
+## Source-supported ancient dates
+
+| Work context actually present | Adopted work chronology | Primary scholarly/institutional evidence and limits |
+|---|---|---|
+| Ptahhotep, *Maxims/Teaching* (10 records) | c. 2000–1800 BCE | [UCL Digital Egypt](https://www.ucl.ac.uk/museums-static/digitalegypt/literature/ptahhotep.html) assigns composition to Dynasty 12. [Met chronology](https://www.metmuseum.org/art/collection/search/556633) supplies the dynasty period used for rounded bounds. The corpus's c. 2350 BC is its older narrative setting, not the adopted composition date. |
+| Enheduanna, *A Hymn to Inana* (6) | 23rd–18th century BCE, disputed | Specialist translator Sophus Helle's [authorship discussion](https://enheduana.org/authorship/) permits early authorship or later writing in her name; most witnesses are eighteenth-century. [Work identification](https://enheduana.org/the-hymn-to-inana/) distinguishes this hymn from the *Exaltation*. This is an uncertainty envelope; 2300 BCE is not independently proved. |
+| Hesiod, *Works and Days* (9) | c. 700 BCE | [Cambridge classical-source chronology](https://assets.cambridge.org/97805214/12629/frontmatter/9780521412629_frontmatter.pdf). Do not transfer this date to the *Catalogue of Women*. |
+| Homer, *Iliad* (2) | c. 800–650 BCE | [University of Chicago Library](https://www.lib.uchicago.edu/collex/exhibits/homer-print-transmission-and-reception-homers-works/homer-print/) separates composition from later writing-down. Earlier oral roots remain possible. The eight translations-only contexts do not establish an identifiable work and remain unmapped. |
+| Marcus Aurelius, *Meditations* (11) | c. 171–175 CE | [IEP](https://iep.utm.edu/marcus-aurelius/) gives probable campaign-notebook dating. The corpus's 121–180 CE is the emperor's lifetime and is overridden. Book I may have a separate history. |
+| Epictetus, *Discourses* (3) | c. 108 CE, teaching recorded by Arrian | [SEP](https://plato.stanford.edu/archives/sum2026/entries/epictetus/) dates the represented teaching; exact publication is not established. |
+| Epictetus, *Enchiridion* (1) | c. 135 CE, approximate archive convention | [MIT primary-text archive](https://classics.mit.edu/Epictetus/epicench.html) supplies the conventional year; SEP identifies the handbook as Arrian's abridgment. This is weaker than a securely dated first publication. |
+| Confucius-attributed *Doctrine of the Mean / Great Learning* (6) | 3rd–2nd century BCE, posthumous compilation | Robert Eno's [Indiana University translation, introduction pp. 3–5](https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/84e59243-b0aa-4318-ac30-adc0454cf6a3/content) argues anonymous texts, plausibly Qin/early Han. The broad century envelope does not claim Confucius wrote the compiled texts or date each embedded saying. |
+| Laozi, *Tao Te Ching* (5) | c. 450–250 BCE, text formation | [SEP, date/authorship section](https://plato.stanford.edu/archives/spr2024/entries/laozi/) describes successive collections and stabilization. Traditional author chronology and modern translation dates are distinct. |
+| Plato: *Republic* II–X / *Symposium*; *Parmenides/Phaedrus*; *Timaeus*; *Protagoras* (6 total) | Proposed groups: 380–360; 360–355; 355–347; 399–387 BCE | [IEP's chronology](https://iep.utm.edu/plato/) is one scholarly reconstruction, not consensus. The corpus's Republic 586a–b belongs to Book IX; Book I would need an earlier rule. |
+| Plato’s *Phaedo* (7) and *Apology* (1), attributed to the represented speaker Socrates in the corpus | c. 380–360 BCE; c. 399–387 BCE, proposed composition ranges | [IEP chronology](https://iep.utm.edu/plato/) separates middle and early dialogue groups. These dates concern Plato’s writing, not the trial/death dramatic setting in 399 BCE. Apology matching requires explicit Plato context, avoiding Xenophon’s work. |
+| Plato, *Theaetetus* (2) | c. 369–355 BCE, disputed envelope | [Work-specific IEP entry](https://iep.utm.edu/theatetu/) proposes shortly after 369–367; its general Plato chronology instead uses 360–355. Both are retained as uncertainty. |
+| Aristotle, *Nicomachean Ethics* (1) | c. 350–330 BCE | [Notre Dame](https://godandgoodlife.nd.edu/resource/learn-to-live-well-aristotle/) gives c. 350, while a [Cambridge source list](https://assets.cambridge.org/97811084/88846/frontmatter/9781108488846_frontmatter.pdf) uses c. 330. This range preserves the variation. |
+| Aristotle, *Politics* (1) | c. 350 BCE, approximate convention | T. H. Irwin's [Routledge Encyclopedia article/bibliography](https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9781138936485/instr_biographies/aristotle.pdf) identifies mid-fourth-century work; [MIT archive](https://classics.mit.edu/Aristotle/politics.html) gives 350. Layered treatise chronology is not exact. |
+| Aeschylus, *Oresteia* and component tragedies (5) | 458 BCE, first performance | [Cambridge chronology](https://assets.cambridge.org/97805215/39814/frontmatter/9780521539814_frontmatter.pdf). Fragments and other plays are excluded. |
+| Aristophanes, *Birds* (4); *Clouds* (2) | 414 BCE; 423 BCE, first performances | Translator Ian Johnston's university-hosted historical notes for [Birds](https://web.viu.ca/johnstoi/aristophanes/birds.htm) and [Clouds](https://web.viu.ca/johnstoi/aristophanes/clouds.htm). The surviving *Clouds* is a later unfinished revision; 423 does not date every line. |
+
+## Existing dates and correction
+
+- Darwin, *Origin of Species*: **1859**, confirmed by [Freeman's bibliography at Darwin Online](https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html). Preserve `press-darwin-0`.
+- Emerson, *Self-Reliance*: **1841**, confirmed in [Harvard's primary-reading chronology](https://english.fas.harvard.edu/resource/sthetranscendentalistsandtheirlegacygeoffreykirschpdf). Preserve `press-emerson-0` through `press-emerson-4`.
+- Hobbes, *Leviathan*: **1651**, supported by the [British Library witness/catalog](https://searcharchives.bl.uk/catalog/040-001982826). Preserve `press-hobbes-0`.
+- Bentley, *Trent's Last Case*: **1913**, explicitly identified by the [American Film Institute catalog](https://catalog.afi.com/Film/51447-TRENT%27S-LAST-CASE). The four matching corpus records say 1912; use the reviewed correction rather than reproduce that source error.
+
+## Blocks and remaining unknowns
+
+The JSON has separate `blockedContexts` with no original numeric bounds. They are not dating rules. Their broader matching fields include citations for diagnostic inventory only.
+
+- *Golden Sayings of Epictetus* is a modern arranged anthology. [University library union catalog](https://ci.nii.ac.jp/ncid/BA28603924) and [Penn library bibliography](https://onlinebooks.library.upenn.edu/webbin/who/Epictetus) establish a **1903** Crossley edition. Label that compilation/source context; an ancient work date requires identification of its underlying passage.
+- Leonardo's *Notebooks* **1883** is Richter's posthumous transliteration/translation, confirmed in [Kenneth D. Keele's scholarly discussion](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1684AB663DC8BEC2863257E5BFE36118/S0025727300029835a.pdf/div-class-title-leonardo-da-vinci-s-influence-on-renaissance-anatomy-div.pdf). Do not date the original notes 1883 or replace it with the author's lifetime.
+- *Alcibiades I*, Hesiod's *Catalogue of Women*, Aristotle's *Physics/Rhetoric/Parts of Animals*, and Amenemope's *Instruction* remain composition-unknown in this bounded phase. Identifying an ancient work alone is insufficient to claim an independently established date.
+- Fourteen Lugalbanda/Enmerkar/Shu-Sin citation contexts mix Ur III / twenty-first-century settings and Old Babylonian witnesses; these were inventoried, not independently dated. Explicit unreviewed dates may remain clearly labelled **source context**, rather than verified composition dates.
+- No explicit relevant-author work context was found for the requested *Theogony*, *Odyssey*, Aristotle's *Poetics*, or Confucius's *Analects*. They receive no speculative mapping.
+- Work titles can contain historical subjects: “born in 300 BC” or “origins to AD 1300” need not date the modern work. Translation, anthology, citation, edition, lifetime and manuscript dates must remain typed separately. Generic community quotations remain unknown.
+
+## Verification and footprint
+
+The current JSON parses successfully. All 25 work rules match actual direct work contexts; 107 reviewed-rule matches include the seven preserved existing dated records. Every numeric pair is ordered, nonzero, and separate from edition-only fields. No large archive, dependencies, server or browser was created; records were scanned one chunk at a time. The date-audit directory began at 12 KiB on a volume with 51 GiB free. Local sandbox denied swap/process inspection; manager supplied the admission baseline. A later local reading showed 48% memory-pressure free and roughly 5.52 GiB compressor, so no heavy work was admitted.
+
+Correction during acceptance: the first inventory searched work contexts under Plato only and missed eight Socrates-attributed dialogue records. The JSON now includes seven Phaedo contexts and one explicitly Plato-labelled Apology context; the earlier absence claim was removed. No author-lifetime dating was introduced.

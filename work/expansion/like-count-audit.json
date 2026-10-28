@@ -1,0 +1,179 @@
+{
+  "sourceCoverage": {
+    "souradippal/popular-quotes-from-goodreads": 2574,
+    "abhishekvermasg1/goodreads-quotes": 83,
+    "faellielupe/goodreads-quotes": 619
+  },
+  "exactRowsAudited": 3276,
+  "exampleRecords": [
+    {
+      "id": "qgMKRwMNcB9G",
+      "likes": 167877,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "adc4aff43307e0d141f10d710ad6c76ecc6fdb9df5c3de97240947fbf1e6d36c"
+    },
+    {
+      "id": "L63tZjtmyQX6",
+      "likes": 160916,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "4dd2f20f1d03b8c6c4763d8ae7793ba6d1aff00890aa688818d10f25f33ea2f0"
+    },
+    {
+      "id": "cq-bfb3452c61c11761",
+      "likes": 143769,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "80ed0fe9fefae91fa9f30095fb97c22ee452406d4c798f555964335312a2a582"
+    },
+    {
+      "id": "cq-1b5e6e6ff304f4c4",
+      "likes": 143235,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "08a95a00f2c8a1cf27016db4a0b8c91de816bc2b72ee4aed3b35fb4860f869f5"
+    },
+    {
+      "id": "cq-585669cc1d739a56",
+      "likes": 131204,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "c7b859ad175e9950cdf270a6fe7ed300ec0d472a4232b9018705a24dba24ede3"
+    },
+    {
+      "id": "cq-b1fd2f3d168c9569",
+      "likes": 127272,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "d338b3ab25cf714b8bafa12ed8467d2f13f55f442fae7e6b52aedc5fcf3ee9b0"
+    },
+    {
+      "id": "dkOBkLx1o6Vf",
+      "likes": 123189,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "efa1ff6604622e3f1a8f4597bbd32c3315f5c20c54afd9620af40e1a7df30c9a"
+    },
+    {
+      "id": "cq-e34d99d0c37c20cf",
+      "likes": 115609,
+      "source": "souradippal/popular-quotes-from-goodreads",
+      "snapshot": "2023-07-01",
+      "sourceRecordHash": "96a533d0a3869f67ff644f02a4f9501ea8b2a12438b066230b1be1bd78adf439"
+    },
+    {
+      "id": "K_JAFGFr7CQ",
+      "likes": 85854,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "abbbd916de4186fed8730d94bd247e18aa673b840cebbd63d83a2a844ca77351"
+    },
+    {
+      "id": "9faWWZ4ITZrr",
+      "likes": 10278,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "ab245d579a15647d5a9d3c000dedae7250ff2554ef9d5cbd3d9fb5baa16b5181"
+    },
+    {
+      "id": "vuGBuD1oaev3",
+      "likes": 7008,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "82151b26af1e5f2443ed7962b96d3b57ec1b62f870e460bd9f35e2a23bc68724"
+    },
+    {
+      "id": "_tnh-9akIJ0N",
+      "likes": 1621,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "c84849c298e5df65f5ea9ea7b15d2629a835f46d189fb02be0f32ac4aef4bc43"
+    },
+    {
+      "id": "z-hDjBf4spF-",
+      "likes": 1511,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "6a4ef17b7e896540cbc7ce2c4c997a60a21e1b584ac3f39a0c36a3ae58a4daab"
+    },
+    {
+      "id": "4W0N-xcOuLo6",
+      "likes": 1509,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "ab34037ebc85393125bbb6d31d817f3d0e8b51b6f69f4cdc4242bc5126a275d5"
+    },
+    {
+      "id": "8pxScew8Z6Fg",
+      "likes": 1365,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "5625fc1a7b4c781aebf538c59bcd52191f11b81c320b4f42a3d2803e95b94a96"
+    },
+    {
+      "id": "uqaaARLMJn6",
+      "likes": 1310,
+      "source": "abhishekvermasg1/goodreads-quotes",
+      "snapshot": "2021-03-30",
+      "sourceRecordHash": "34a31bc43e574d29462c214c5a38d2c6b572478303692382f4430ef87b25dcdd"
+    },
+    {
+      "id": "cq-3562779430422876",
+      "likes": 162,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "6e23ead860b23112462e0aaa0cb731f11eb5b4c66275a8264f1a636539a7ecf3"
+    },
+    {
+      "id": "cq-5f516000201df854",
+      "likes": 14,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "19c5b428548252919d7d1e2cf6ad019624cbefaffb4186215442fbd71e08a2d9"
+    },
+    {
+      "id": "cq-4c398e565f66e5cf",
+      "likes": 0,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "9be3cab8c7269d40a5010994ba0d27e946fd9c5c912b4e20c95d36e98b3cbcd9"
+    },
+    {
+      "id": "cq-fa630608d1e1e0d0",
+      "likes": 0,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "d8d988e6fafa36dae844ae5186f78f94f27e83245d22175ecd4e4175bf8c58b6"
+    },
+    {
+      "id": "cq-2ec2a5855851aab6",
+      "likes": 547,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "1868ab6265bc66c44d341a4ff8e8054be18bddf199624f1367ac1e63045fde7e"
+    },
+    {
+      "id": "cq-6cb2396d6dfcdacd",
+      "likes": 531,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "2bc6a4f0e1c41a2158918b24f1c08fc8c1c5f5e22c1178f97cb4e0320c935392"
+    },
+    {
+      "id": "cq-024e837878acd91f",
+      "likes": 4,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "f7f340997ba526168d26117be40f764c0e1bfedfe096a12938d352acf3c72d0d"
+    },
+    {
+      "id": "cq-f7bd41c8cc465556",
+      "likes": 3,
+      "source": "faellielupe/goodreads-quotes",
+      "snapshot": "2020-02-22",
+      "sourceRecordHash": "ee076731b02df11b8a64eecb281f0fa902d1ae7a2be15cfe8de25022639be369"
+    }
+  ],
+  "result": "Every published imported count exactly matches one identified raw snapshot row. Distinct punctuation variants may have different source records/counts; recordhash identifies the selected row. Counts are not added."
+}

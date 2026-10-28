@@ -1,0 +1,128 @@
+[
+  {
+    "id": "press-darwin-0",
+    "text": "From so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
+    "author": "Charles Darwin",
+    "year": 1859,
+    "topics": [
+      "Biology",
+      "Science"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "On the Origin of Species, first edition",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/1228",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  },
+  {
+    "id": "press-emerson-0",
+    "text": "Trust thyself: every heart vibrates to that iron string.",
+    "author": "Ralph Waldo Emerson",
+    "year": 1841,
+    "topics": [
+      "Learning",
+      "Courage"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "Essays: First Series, Self-Reliance",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2944",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  },
+  {
+    "id": "press-emerson-1",
+    "text": "Nothing is at last sacred but the integrity of your own mind.",
+    "author": "Ralph Waldo Emerson",
+    "year": 1841,
+    "topics": [
+      "Learning",
+      "Courage"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "Essays: First Series, Self-Reliance",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2944",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  },
+  {
+    "id": "press-emerson-2",
+    "text": "A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.",
+    "author": "Ralph Waldo Emerson",
+    "year": 1841,
+    "topics": [
+      "Learning",
+      "Courage"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "Essays: First Series, Self-Reliance",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2944",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  },
+  {
+    "id": "press-emerson-3",
+    "text": "Whoso would be a man must be a nonconformist.",
+    "author": "Ralph Waldo Emerson",
+    "year": 1841,
+    "topics": [
+      "Learning",
+      "Courage"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "Essays: First Series, Self-Reliance",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2944",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  },
+  {
+    "id": "press-emerson-4",
+    "text": "Insist on yourself; never imitate.",
+    "author": "Ralph Waldo Emerson",
+    "year": 1841,
+    "topics": [
+      "Learning",
+      "Courage"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "Essays: First Series, Self-Reliance",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2944",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  },
+  {
+    "id": "press-hobbes-0",
+    "text": "Words are wise mens counters, they do but reckon by them: but they are the mony of fooles, that value them by the authority of an Aristotle, a Cicero, or a Thomas, or any other Doctor whatsoever, if but a man.",
+    "author": "Thomas Hobbes",
+    "year": 1651,
+    "topics": [
+      "History",
+      "Learning"
+    ],
+    "minAge": 12,
+    "importance": 5,
+    "likes": null,
+    "source": "Leviathan",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/3207",
+    "verified": true,
+    "authorInfo": "",
+    "yearNote": "Original publication year of the cited work"
+  }
+]

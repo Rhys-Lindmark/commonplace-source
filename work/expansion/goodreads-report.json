@@ -1,0 +1,19 @@
+{
+  "cc0Rows": 6001,
+  "cc0MatchedExisting": 237,
+  "olderExportUnmatchedMetadataOnly": 2756,
+  "cc0AttributionMismatch": 44,
+  "cc0ExcludedQualityOrPrint": 157,
+  "cc0ExcludedLanguageOrFragment": 41,
+  "cc0NewQuotes": 2444,
+  "cc0ExcludedIncompleteWrapper": 322,
+  "metadataRows": 348085,
+  "metadataAttributionMismatch": 176,
+  "metadataMatched": 655,
+  "total": 102444,
+  "goodreadsKnownCount": 3276,
+  "goodreadsCC0Unique": 2657,
+  "authors": 19332,
+  "release": "cfa21964d8e4a4d1",
+  "exactSourceRowsAudited": 3276
+}

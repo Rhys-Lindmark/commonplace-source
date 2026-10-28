@@ -1,0 +1,17 @@
+.openai-local/
+node_modules/
+__pycache__/
+.DS_Store
+*.tar.gz
+work/expansion/raw/
+work/expansion/*.sqlite*
+tmp/
+
+.env
+.env.*
+!.env.example
+.dev.vars*
+WORK_LOG.md
+output/
+work/**/progress.*
+work/**/*.log

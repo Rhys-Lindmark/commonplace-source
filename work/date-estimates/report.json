@@ -1,0 +1,937 @@
+{
+  "version": 2,
+  "applied": true,
+  "counts": {
+    "estimate": 37345,
+    "total": 102444,
+    "bce": 1254,
+    "work": 126,
+    "source-context": 64973
+  },
+  "methods": {
+    "author-lifespan-75-percent": 24672,
+    "author-sourced-activity-median": 6630,
+    "author-birth-and-observed-lifespan": 3181,
+    "corpus-date-prior": 371,
+    "author-work-period": 2267,
+    "reviewed-author-era": 94,
+    "attributed-entity-work-date": 42,
+    "author-death-minus-20": 88
+  },
+  "weakestAuthors": {
+    "C. JoyBell C.": 11,
+    "Trevor Loudon": 10,
+    "Noam Cohen": 10,
+    "Ben Dirs": 10,
+    "Уилям Лайън Фелпс": 10,
+    "Jakub Tencl": 10,
+    "Swami Samarpanananda": 10,
+    "Арнълд Хенри Гласоу": 9,
+    "Charlie McGeever": 9,
+    "Alexei Maxim Russell": 9,
+    "Taylor Horn": 7,
+    "Shaj Mohan": 6,
+    "Tony Joseph": 6,
+    "Джеф Ричардс": 6,
+    "Харлан Милър": 6,
+    "Dorrie O’Brien": 6,
+    "Eve Tuck": 5,
+    "Matt Sanchez": 5,
+    "Патрик Мъри": 5,
+    "Samir Khader": 5,
+    "Richard A. Oppel Jr.": 5,
+    "Dmae Roberts": 4,
+    "Barry Mazor": 4,
+    "Rohini Pande": 4,
+    "Bonnie Koppell": 4,
+    "Surjit Bhalla": 4,
+    "Mando Alvarado": 4,
+    "Winston S. Churchill": 4,
+    "Рене Ясенек": 3,
+    "Art Spander": 3,
+    "Pamela Jones": 3,
+    "Taito Waradi": 3,
+    "Jari Hedman": 3,
+    "Richard Roth, Jr.": 3,
+    "Shane Crotty": 3,
+    "Jack Baker": 3,
+    "Anonymous,": 3,
+    "Doris Mortman": 2,
+    "Sai Baba": 2,
+    "Michael Siegel": 2,
+    "Tarani Chandola": 2,
+    "John A. Stankovic": 2,
+    "Lu-diĝira": 2,
+    "Shreya Sharma": 2,
+    "Robert Higham": 2,
+    "Carla Rueckert": 2,
+    "Beef Bonanza": 2,
+    "Antonio L. Rappa": 2,
+    "Andreas Elpidorou": 2,
+    "Carsten Thiel": 2,
+    "A. Surya Prakash": 2,
+    "Cynthia Bir": 2,
+    "Amos (prophet)": 2,
+    "Джек Уорнър": 2,
+    "Ed Krebs": 2,
+    "Тед Уайтхед": 2,
+    "Abd Al-Hamid Al-Ansari": 2,
+    "Richard Behar": 2,
+    "Mollie Burke": 2,
+    "Carter Crocker": 2,
+    "Katie McGarry,": 2,
+    "Santosh Kalwar,": 2,
+    "Dale Turner": 1,
+    "John Eliot": 1,
+    "Doug Horton": 1,
+    "Diogenes": 1,
+    "Samuel Butler": 1,
+    "John Berry": 1,
+    "Henry Reed": 1,
+    "David Bader": 1,
+    "Phyllis Grissim-Theroux": 1,
+    "Julie Morgenstern": 1,
+    "Gilad Bracha": 1,
+    "Will T. Kirk": 1,
+    "Rayden": 1,
+    "Keith Bostic": 1,
+    "Alison Jackson": 1,
+    "Juliet Gellatley": 1,
+    "Lipit-Ishtar": 1,
+    "Liber": 1,
+    "Хектор Хю Мънроу — Саки": 1,
+    "Mohammed Hamza": 1,
+    "Rocky Marquette": 1,
+    "Mark Webber": 1,
+    "Марион Келог": 1,
+    "Грант Милър": 1,
+    "Terence Chang": 1,
+    "Артемъс Уорд": 1,
+    "Ronnie Rancifer": 1,
+    "Бърти Чарлз Форбс": 1,
+    "Виктор Шлихтер": 1,
+    "George E. Young": 1,
+    "Sadhvi Rithambara": 1,
+    "Scipione Alberti": 1,
+    "Марион Смит": 1,
+    "Бари Гибънс": 1,
+    "Rose Marie Toussaint": 1,
+    "Luciano Henrique Trindade": 1,
+    "Eugene Eric Kim": 1,
+    "Люк Форд": 1,
+    "Честър Карас": 1,
+    "Amjad Saqib": 1,
+    "Jose Stevens": 1,
+    "Franchino": 1,
+    "Чарлз Джулиш": 1,
+    "Irvin Kauffman": 1,
+    "Carole Vance": 1,
+    "Christopher S. Koper": 1,
+    "Vijayachandra": 1,
+    "Robert J. Hanlon": 1,
+    "Мортимър Каплан": 1,
+    "James Boros": 1,
+    "Робърт Мейнард Хътчинс": 1,
+    "Chandradeva": 1,
+    "Christian Frates": 1,
+    "D. P. Agrawal": 1,
+    "Adam Skalski": 1,
+    "Al-Muradi": 1,
+    "Sin-Iddinam": 1,
+    "John Basil Barnhill": 1,
+    "Dale Dauten": 1,
+    "Akua Njeri": 1,
+    "Charles Province": 1,
+    "William Luti": 1,
+    "Evan Czaplicki": 1,
+    "Джули Бърщайн": 1,
+    "Daniel Leech-Wilkinson": 1,
+    "Hsu Szu-chien": 1,
+    "Maurice Switzer,": 1,
+    "Gordon A. Eadie": 1,
+    "Paul Terry": 1,
+    "Alexandre Dumas-fils": 1,
+    "Marthe Troly-Curtin,": 1,
+    "Jess C. Scott,": 1,
+    "Linda Grayson": 1,
+    "Terry Johnson,": 1,
+    "Evans G. Valens,": 1,
+    "Sarah Williams": 1,
+    "Henry Ward Beecherr": 1,
+    "Haruki Marukami": 1,
+    "Daphne Rae,": 1,
+    "Andrew Boyd,": 1,
+    "Olin Miller": 1,
+    "Cathy Guiswite": 1,
+    "Oscar Wilde (attributed to)": 1,
+    "Lance Armstrong Sally Jenkins,": 1,
+    "Donald Miller,": 1,
+    "Fitzgerald F. Scott,": 1,
+    "Robert Marley": 1,
+    "Bukkyo Dendo Kyokai,": 1,
+    "Deborah Reber,": 1,
+    "José N. Harris,": 1,
+    "Margaret Lee Runbeck": 1,
+    "Edward J. Stieglitz": 1,
+    "Arthur G. Lewis,": 1,
+    "P.C. Cast Kristin Cast": 1,
+    "richard siken": 1,
+    "Rumi Jalalud-Din": 1,
+    "Reginald Vincent Holmes,": 1,
+    "Stephanie Lennox,": 1,
+    "Francois Duc de la Rochefoucauld,": 1,
+    "Geraldine Brooks,": 1,
+    "Buddha Siddhartha Guatama Shakyamuni": 1,
+    "David Nicholls,": 1,
+    "Tolstoy Leo": 1,
+    "Sarah Kay": 1,
+    "Jarod Kintz,": 1,
+    "Frank Kaiser": 1
+  },
+  "sourceCounts": {
+    "work": 126,
+    "source-context": 64973
+  },
+  "corpusPrior": 1990,
+  "unchangedContentFingerprint": "cfa21964d8e4a4d18b1565f4e5043568ea5b4804681da4aada590a514946b970",
+  "auditId": "23031933a2187706",
+  "release": "0851de8e21a45629",
+  "examples": {
+    "author-lifespan-75-percent": [
+      {
+        "id": "er8h8dsPVIc6",
+        "author": "Marie Curie",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1917,
+          "endYear": 1917,
+          "approximate": true,
+          "label": "1917",
+          "evidence": "author-lifespan-75-percent",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q7186"
+          ],
+          "note": "Estimated at75%of the author lifespan from1867to1934; not a sourced quotation date.",
+          "reviewed": false,
+          "method": "author-lifespan-75-percent",
+          "confidence": "medium",
+          "anchors": {
+            "birthYear": 1867,
+            "deathYear": 1934,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "r3wAKE9N-Nei",
+        "author": "Carl Sagan",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1980,
+          "endYear": 1980,
+          "approximate": true,
+          "label": "1980",
+          "evidence": "author-lifespan-75-percent",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q410"
+          ],
+          "note": "Estimated at75%of the author lifespan from1934to1996; not a sourced quotation date.",
+          "reviewed": false,
+          "method": "author-lifespan-75-percent",
+          "confidence": "medium",
+          "anchors": {
+            "birthYear": 1934,
+            "deathYear": 1996,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "iDSY05hYTVIU",
+        "author": "Galileo Galilei",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1622,
+          "endYear": 1622,
+          "approximate": true,
+          "label": "1622",
+          "evidence": "author-lifespan-75-percent",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q307"
+          ],
+          "note": "Estimated at75%of the author lifespan from1564to1642; not a sourced quotation date.",
+          "reviewed": false,
+          "method": "author-lifespan-75-percent",
+          "confidence": "medium",
+          "anchors": {
+            "birthYear": 1564,
+            "deathYear": 1642,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "work": [
+      {
+        "id": "press-darwin-0",
+        "author": "Charles Darwin",
+        "date": {
+          "version": 2,
+          "kind": "work",
+          "startYear": 1859,
+          "endYear": 1859,
+          "approximate": false,
+          "label": "1859 (first publication)",
+          "evidence": "On the Origin of Species, first edition",
+          "sourceUrls": [
+            "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html"
+          ],
+          "note": "Freeman’s bibliography identifies the 1859 first edition and 24 November publication.",
+          "reviewed": true,
+          "referenceId": "darwin-origin",
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "press-emerson-0",
+        "author": "Ralph Waldo Emerson",
+        "date": {
+          "version": 2,
+          "kind": "work",
+          "startYear": 1841,
+          "endYear": 1841,
+          "approximate": false,
+          "label": "1841",
+          "evidence": "Essays: First Series, Self-Reliance",
+          "sourceUrls": [
+            "https://www.gutenberg.org/files/2944/2944-h/2944-h.htm",
+            "https://emersoncentral.com/ebook/Circles.pdf"
+          ],
+          "note": "First-series essay publication; do not extend to Essays: Second Series (1844).",
+          "reviewed": true,
+          "referenceId": "emerson-first-series-1841",
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "press-emerson-1",
+        "author": "Ralph Waldo Emerson",
+        "date": {
+          "version": 2,
+          "kind": "work",
+          "startYear": 1841,
+          "endYear": 1841,
+          "approximate": false,
+          "label": "1841",
+          "evidence": "Essays: First Series, Self-Reliance",
+          "sourceUrls": [
+            "https://www.gutenberg.org/files/2944/2944-h/2944-h.htm",
+            "https://emersoncentral.com/ebook/Circles.pdf"
+          ],
+          "note": "First-series essay publication; do not extend to Essays: Second Series (1844).",
+          "reviewed": true,
+          "referenceId": "emerson-first-series-1841",
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "author-sourced-activity-median": [
+      {
+        "id": "h12ulAfEEIi1",
+        "author": "Barack Obama",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 2013,
+          "endYear": 2013,
+          "approximate": true,
+          "label": "2013",
+          "evidence": "author-sourced-activity-median",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q76"
+          ],
+          "note": "Estimated from the median dated work/source contexts for the same attributed author.",
+          "reviewed": false,
+          "method": "author-sourced-activity-median",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1961,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "DRrFFyFqWhQD",
+        "author": "Richard Bach",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1977,
+          "endYear": 1977,
+          "approximate": true,
+          "label": "1977",
+          "evidence": "author-sourced-activity-median",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q245407"
+          ],
+          "note": "Estimated from the median dated work/source contexts for the same attributed author.",
+          "reviewed": false,
+          "method": "author-sourced-activity-median",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1936,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "SUGTTr1lgAW",
+        "author": "Richard Bach",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1977,
+          "endYear": 1977,
+          "approximate": true,
+          "label": "1977",
+          "evidence": "author-sourced-activity-median",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q245407"
+          ],
+          "note": "Estimated from the median dated work/source contexts for the same attributed author.",
+          "reviewed": false,
+          "method": "author-sourced-activity-median",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1936,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "author-birth-and-observed-lifespan": [
+      {
+        "id": "jFcxLEUS2zO",
+        "author": "Jonathan Kozol",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1996,
+          "endYear": 1996,
+          "approximate": true,
+          "label": "1996",
+          "evidence": "author-birth-and-observed-lifespan",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q1703223"
+          ],
+          "note": "Estimated from birth1936,75%of elapsed years through corpus cutoff2026, capped at60years after birth; not an assumed death date.",
+          "reviewed": false,
+          "method": "author-birth-and-observed-lifespan",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1936,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "0zVGLJ51n4H-",
+        "author": "Vernon Cooper",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 2014,
+          "endYear": 2014,
+          "approximate": true,
+          "label": "2014",
+          "evidence": "author-birth-and-observed-lifespan",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q3555990"
+          ],
+          "note": "Estimated from birth1977,75%of elapsed years through corpus cutoff2026, capped at60years after birth; not an assumed death date.",
+          "reviewed": false,
+          "method": "author-birth-and-observed-lifespan",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1977,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "51iIZed76Z",
+        "author": "Harvey Mackay",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1992,
+          "endYear": 1992,
+          "approximate": true,
+          "label": "1992",
+          "evidence": "author-birth-and-observed-lifespan",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q5677410"
+          ],
+          "note": "Estimated from birth1932,75%of elapsed years through corpus cutoff2026, capped at60years after birth; not an assumed death date.",
+          "reviewed": false,
+          "method": "author-birth-and-observed-lifespan",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1932,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "corpus-date-prior": [
+      {
+        "id": "eeXDeVTMI",
+        "author": "Dale Turner",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1990,
+          "endYear": 1990,
+          "approximate": true,
+          "label": "1990",
+          "evidence": "corpus-date-prior",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q5210667"
+          ],
+          "note": "Low-confidence fallback to the median source-supported corpus date. Author/source dates could not be resolved; not evidence for this quotation.",
+          "reviewed": false,
+          "method": "corpus-date-prior",
+          "confidence": "very-low",
+          "anchors": {
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "kKAMmRhnyps",
+        "author": "John Eliot",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1990,
+          "endYear": 1990,
+          "approximate": true,
+          "label": "1990",
+          "evidence": "corpus-date-prior",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q1270926"
+          ],
+          "note": "Low-confidence fallback to the median source-supported corpus date. Author/source dates could not be resolved; not evidence for this quotation.",
+          "reviewed": false,
+          "method": "corpus-date-prior",
+          "confidence": "very-low",
+          "anchors": {
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "d76RCKoNh69P",
+        "author": "Doug Horton",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1990,
+          "endYear": 1990,
+          "approximate": true,
+          "label": "1990",
+          "evidence": "corpus-date-prior",
+          "sourceUrls": [],
+          "note": "Low-confidence fallback to the median source-supported corpus date. Author/source dates could not be resolved; not evidence for this quotation.",
+          "reviewed": false,
+          "method": "corpus-date-prior",
+          "confidence": "very-low",
+          "anchors": {
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "author-work-period": [
+      {
+        "id": "BF_d0-6_2j",
+        "author": "Mariella Frostrup",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1980,
+          "endYear": 1980,
+          "approximate": true,
+          "label": "1980",
+          "evidence": "author-work-period",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q6763155"
+          ],
+          "note": "Estimated from the attributed author work/activity period in Wikidata.",
+          "reviewed": false,
+          "method": "author-work-period",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1962,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "Q8UN20ENwDOM",
+        "author": "John Astin",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1954,
+          "endYear": 1954,
+          "approximate": true,
+          "label": "1954",
+          "evidence": "author-work-period",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q458464"
+          ],
+          "note": "Estimated from the attributed author work/activity period in Wikidata.",
+          "reviewed": false,
+          "method": "author-work-period",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1930,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "EpDrsWX_c6li",
+        "author": "Tony Robbins",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1978,
+          "endYear": 1978,
+          "approximate": true,
+          "label": "1978",
+          "evidence": "author-work-period",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q380429"
+          ],
+          "note": "Estimated from the attributed author work/activity period in Wikidata.",
+          "reviewed": false,
+          "method": "author-work-period",
+          "confidence": "low",
+          "anchors": {
+            "birthYear": 1960,
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "reviewed-author-era": [
+      {
+        "id": "0GYhGCy1iGJq",
+        "author": "Dhammapada",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": -250,
+          "endYear": -250,
+          "approximate": true,
+          "label": "250 BCE",
+          "evidence": "reviewed-author-era",
+          "sourceUrls": [
+            "https://www.discoveringbuddha.org/wp-content/uploads/2024/04/CHRONOLOGY-OF-THE-PALI-CANON-by-BC-Law-1931.pdf",
+            "https://accesstoinsight.org/tipitaka/kn/dhp/dhp.intro.than"
+          ],
+          "note": "Broad third-century-BCE compilation-era estimate for the attributed anthology, using the midpoint of that century. The history of the text and its recensions is uncertain; not an authenticated composition date for each verse or the English translation.",
+          "reviewed": false,
+          "method": "reviewed-author-era",
+          "confidence": "low",
+          "anchors": {
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "S1jK2eB0lfyM",
+        "author": "Dhammapada",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": -250,
+          "endYear": -250,
+          "approximate": true,
+          "label": "250 BCE",
+          "evidence": "reviewed-author-era",
+          "sourceUrls": [
+            "https://www.discoveringbuddha.org/wp-content/uploads/2024/04/CHRONOLOGY-OF-THE-PALI-CANON-by-BC-Law-1931.pdf",
+            "https://accesstoinsight.org/tipitaka/kn/dhp/dhp.intro.than"
+          ],
+          "note": "Broad third-century-BCE compilation-era estimate for the attributed anthology, using the midpoint of that century. The history of the text and its recensions is uncertain; not an authenticated composition date for each verse or the English translation.",
+          "reviewed": false,
+          "method": "reviewed-author-era",
+          "confidence": "low",
+          "anchors": {
+            "cutoffYear": 2026
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-0850072463eb2cd6",
+        "author": "Zoroaster",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": -1000,
+          "endYear": -1000,
+          "approximate": true,
+          "label": "1000 BCE",
+          "evidence": "reviewed-author-era",
+          "sourceUrls": [
+            "https://www.iranicaonline.org/articles/zoroastrianism-i-historical-review/",
+            "https://www.iranicaonline.org/articles/gostasp/"
+          ],
+          "note": "Author-era ESTIMATE, not a verified quotation date. Encyclopaedia Iranica reports that many scholars favor around 1000 BCE, while plausible competing chronologies span the thirteenth to sixth centuries BCE. Use -1000 only as a representative sorting year for the attributed author, not a birth year or exact Gathas composition date. All 10 corpus records cite The Gathas/Yasna. Historical chronology is disputed, and the English translations are much later; neither translation date nor a precise ancient quotation date is established.",
+          "reviewed": false,
+          "method": "reviewed-author-era",
+          "confidence": "low",
+          "anchors": {
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "source-context": [
+      {
+        "id": "cq-246be9f4a36698e7",
+        "author": "Sam Harris",
+        "date": {
+          "version": 2,
+          "kind": "source-context",
+          "startYear": 2000,
+          "endYear": 2000,
+          "approximate": false,
+          "label": "2000",
+          "evidence": "2000s",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Sam_Harris"
+          ],
+          "note": "Date stated in the linked source/citation; may describe publication or attestation rather than first utterance.",
+          "reviewed": false,
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-4ddc31c9dc0e2849",
+        "author": "Akbar Hashemi Rafsanjani",
+        "date": {
+          "version": 2,
+          "kind": "source-context",
+          "startYear": 2007,
+          "endYear": 2007,
+          "approximate": false,
+          "label": "2007",
+          "evidence": "Excerpts from a Friday sermon on International Jerusalem Day (October 5, 2007)",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Akbar_Hashemi_Rafsanjani",
+            "http://www.memritv.org/clip_transcript/en/1575.htm"
+          ],
+          "note": "Date stated in the linked source/citation; may describe publication or attestation rather than first utterance.",
+          "reviewed": false,
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-384bade9c70b3080",
+        "author": "Eric Holder",
+        "date": {
+          "version": 2,
+          "kind": "source-context",
+          "startYear": 2015,
+          "endYear": 2015,
+          "approximate": false,
+          "label": "2015",
+          "evidence": "Update on Investigations in Ferguson (2015)",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Eric_Holder"
+          ],
+          "note": "Date stated in the linked source/citation; may describe publication or attestation rather than first utterance.",
+          "reviewed": false,
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "attributed-entity-work-date": [
+      {
+        "id": "cq-ebd87b36866202f7",
+        "author": "Michael Laitman",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 1991,
+          "endYear": 1991,
+          "approximate": true,
+          "label": "1991",
+          "evidence": "attributed-entity-work-date",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q4088504"
+          ],
+          "note": "Estimated from publication/inception of the attributed entity when no human lifespan was available.",
+          "reviewed": false,
+          "method": "attributed-entity-work-date",
+          "confidence": "low",
+          "anchors": {
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-47023d48e6fb3c5e",
+        "author": "Randall Munroe",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 2005,
+          "endYear": 2005,
+          "approximate": true,
+          "label": "2005",
+          "evidence": "attributed-entity-work-date",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q13915"
+          ],
+          "note": "Estimated from publication/inception of the attributed entity when no human lifespan was available.",
+          "reviewed": false,
+          "method": "attributed-entity-work-date",
+          "confidence": "low",
+          "anchors": {
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-eb58882b1618277d",
+        "author": "Kick-Ass (film)",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 2010,
+          "endYear": 2010,
+          "approximate": true,
+          "label": "2010",
+          "evidence": "attributed-entity-work-date",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q2201"
+          ],
+          "note": "Estimated from publication/inception of the attributed entity when no human lifespan was available.",
+          "reviewed": false,
+          "method": "attributed-entity-work-date",
+          "confidence": "low",
+          "anchors": {
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ],
+    "author-death-minus-20": [
+      {
+        "id": "cq-cd5419005a07a9aa",
+        "author": "Menander",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": -310,
+          "endYear": -310,
+          "approximate": true,
+          "label": "310 BCE",
+          "evidence": "author-death-minus-20",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q118992"
+          ],
+          "note": "Estimated20years before death-290, corresponding to75%of a nominal80year lifespan; no birth year is invented.",
+          "reviewed": false,
+          "method": "author-death-minus-20",
+          "confidence": "low",
+          "anchors": {
+            "deathYear": -290,
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-e6e99cf9450f9da6",
+        "author": "Peng Zu",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": -1086,
+          "endYear": -1086,
+          "approximate": true,
+          "label": "1086 BCE",
+          "evidence": "author-death-minus-20",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q2194386"
+          ],
+          "note": "Estimated20years before death-1066, corresponding to75%of a nominal80year lifespan; no birth year is invented.",
+          "reviewed": false,
+          "method": "author-death-minus-20",
+          "confidence": "low",
+          "anchors": {
+            "deathYear": -1066,
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      },
+      {
+        "id": "cq-d2cdc21d560842b7",
+        "author": "Shaqiq al-Balkhi",
+        "date": {
+          "version": 2,
+          "kind": "estimate",
+          "startYear": 790,
+          "endYear": 790,
+          "approximate": true,
+          "label": "790 CE",
+          "evidence": "author-death-minus-20",
+          "sourceUrls": [
+            "https://www.wikidata.org/wiki/Q3481470"
+          ],
+          "note": "Estimated20years before death810, corresponding to75%of a nominal80year lifespan; no birth year is invented.",
+          "reviewed": false,
+          "method": "author-death-minus-20",
+          "confidence": "low",
+          "anchors": {
+            "deathYear": 810,
+            "cutoffYear": 2022
+          },
+          "auditId": "23031933a2187706"
+        }
+      }
+    ]
+  },
+  "policy": "Evidence first; estimates explicitly retained internally. Only quote cards display the estimate marker."
+}

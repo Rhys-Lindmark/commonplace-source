@@ -1,0 +1,10 @@
+{
+  "sourceMentionCandidates": 265215,
+  "eligibleQuotationRows": 253165,
+  "rejected": {
+    "length": 11558,
+    "language_or_fragment": 443,
+    "residual_markup": 49
+  },
+  "note": "Measured by the first complete import of checksum-pinned QuoteKG v1.2; eligibility unchanged by later print-glyph selection."
+}

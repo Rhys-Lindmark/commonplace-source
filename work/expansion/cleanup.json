@@ -1,0 +1,34 @@
+{
+  "removed": [
+    {
+      "file": "work/expansion/raw/quotekg.ttl",
+      "bytes": 1070148662
+    },
+    {
+      "file": "work/expansion/raw/goodreads-cc0.zip",
+      "bytes": 191669
+    },
+    {
+      "file": "work/expansion/raw/goodreads-cc0-2021.zip",
+      "bytes": 260843
+    },
+    {
+      "file": "work/expansion/raw/goodreads-metadata.zip",
+      "bytes": 99816831
+    },
+    {
+      "file": "work/expansion/raw/goodreads.sqlite",
+      "bytes": 318525440
+    },
+    {
+      "file": "work/expansion/staging.sqlite",
+      "bytes": 386375680
+    },
+    {
+      "file": "work/expansion/accepted-quotes.jsonl.gz",
+      "bytes": 24513615
+    }
+  ],
+  "totalBytes": 1899832740,
+  "regeneration": "README expanded corpus reproduction commands; pinned source checksums in source-inputs.json; published records/provenance preserved in dist/data"
+}

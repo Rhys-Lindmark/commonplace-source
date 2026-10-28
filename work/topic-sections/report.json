@@ -1,0 +1,241 @@
+{
+  "limit": 10000,
+  "total": 102444,
+  "recordsSha256": "3640c8a9078828770257626e57d3ce40f6a230c3a93c26a42caf4e5cf6ab7e2c",
+  "catalogSha256": "d1f1741ecbac724cb8e97150b2552a6f60ee53078aef1757e66c5e8cbc7bc1d1",
+  "release": "2438f983e95d3fae",
+  "groups": [
+    {
+      "topic": "Learning",
+      "sections": [
+        {
+          "id": "learning--education-teaching--1",
+          "name": "Education & teaching",
+          "count": 3326,
+          "file": "sections/learning--education-teaching--1.json",
+          "description": "Editorial keyword grouping within Learning."
+        },
+        {
+          "id": "learning--knowledge-understanding--1",
+          "name": "Knowledge & understanding",
+          "count": 3863,
+          "file": "sections/learning--knowledge-understanding--1.json",
+          "description": "Editorial keyword grouping within Learning."
+        },
+        {
+          "id": "learning--questions-discovery--1",
+          "name": "Questions & discovery",
+          "count": 1963,
+          "file": "sections/learning--questions-discovery--1.json",
+          "description": "Editorial keyword grouping within Learning."
+        },
+        {
+          "id": "learning--reading-study--1",
+          "name": "Reading & study",
+          "count": 690,
+          "file": "sections/learning--reading-study--1.json",
+          "description": "Editorial keyword grouping within Learning."
+        },
+        {
+          "id": "learning--practice-experience--1",
+          "name": "Practice & experience",
+          "count": 286,
+          "file": "sections/learning--practice-experience--1.json",
+          "description": "Editorial keyword grouping within Learning."
+        },
+        {
+          "id": "learning--reflections--1",
+          "name": "Reflections",
+          "count": 1248,
+          "file": "sections/learning--reflections--1.json",
+          "description": "Editorial keyword grouping within Learning."
+        }
+      ]
+    },
+    {
+      "topic": "Life & meaning",
+      "sections": [
+        {
+          "id": "life-meaning--purpose-values--1",
+          "name": "Purpose & values",
+          "count": 2435,
+          "file": "sections/life-meaning--purpose-values--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--identity-self--1",
+          "name": "Identity & self",
+          "count": 1553,
+          "file": "sections/life-meaning--identity-self--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--choice-responsibility--1",
+          "name": "Choice & responsibility",
+          "count": 1321,
+          "file": "sections/life-meaning--choice-responsibility--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--change-resilience--1",
+          "name": "Change & resilience",
+          "count": 1869,
+          "file": "sections/life-meaning--change-resilience--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--people-society--1",
+          "name": "People & society",
+          "count": 5375,
+          "file": "sections/life-meaning--people-society--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--joy-wellbeing--1",
+          "name": "Joy & wellbeing",
+          "count": 708,
+          "file": "sections/life-meaning--joy-wellbeing--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--work-ambition--1",
+          "name": "Work & ambition",
+          "count": 2230,
+          "file": "sections/life-meaning--work-ambition--1.json",
+          "description": "Editorial keyword grouping within Life & meaning."
+        },
+        {
+          "id": "life-meaning--reflections--1",
+          "name": "Reflections · 2–G (1)",
+          "count": 7793,
+          "file": "sections/life-meaning--reflections--1.json",
+          "description": "Authors from 2 Chainz to Glenn Beck; part 1 of 3."
+        },
+        {
+          "id": "life-meaning--reflections--2",
+          "name": "Reflections · G–M (2)",
+          "count": 7793,
+          "file": "sections/life-meaning--reflections--2.json",
+          "description": "Authors from Glenn Beck to Morihei Ueshiba; part 2 of 3."
+        },
+        {
+          "id": "life-meaning--reflections--3",
+          "name": "Reflections · M–Z+ (3)",
+          "count": 7791,
+          "file": "sections/life-meaning--reflections--3.json",
+          "description": "Authors from Morihei Ueshiba to Честър Карас; part 3 of 3."
+        }
+      ]
+    },
+    {
+      "topic": "Time",
+      "sections": [
+        {
+          "id": "time--patience-waiting--1",
+          "name": "Patience & waiting",
+          "count": 552,
+          "file": "sections/time--patience-waiting--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--past-memory--1",
+          "name": "Past & memory",
+          "count": 755,
+          "file": "sections/time--past-memory--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--future-possibility--1",
+          "name": "Future & possibility",
+          "count": 279,
+          "file": "sections/time--future-possibility--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--present-moments--1",
+          "name": "Present moments",
+          "count": 2560,
+          "file": "sections/time--present-moments--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--aging-change--1",
+          "name": "Aging & change",
+          "count": 692,
+          "file": "sections/time--aging-change--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--eternity-impermanence--1",
+          "name": "Eternity & impermanence",
+          "count": 555,
+          "file": "sections/time--eternity-impermanence--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--time-priorities--1",
+          "name": "Time & priorities",
+          "count": 1067,
+          "file": "sections/time--time-priorities--1.json",
+          "description": "Editorial keyword grouping within Time."
+        },
+        {
+          "id": "time--reflections--1",
+          "name": "Reflections",
+          "count": 4362,
+          "file": "sections/time--reflections--1.json",
+          "description": "Editorial keyword grouping within Time."
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "sections": [
+        {
+          "id": "politics--government-democracy--1",
+          "name": "Government & democracy",
+          "count": 6098,
+          "file": "sections/politics--government-democracy--1.json",
+          "description": "Editorial keyword grouping within Politics."
+        },
+        {
+          "id": "politics--justice-equality--1",
+          "name": "Justice & equality",
+          "count": 1312,
+          "file": "sections/politics--justice-equality--1.json",
+          "description": "Editorial keyword grouping within Politics."
+        },
+        {
+          "id": "politics--war-conflict--1",
+          "name": "War & conflict",
+          "count": 2082,
+          "file": "sections/politics--war-conflict--1.json",
+          "description": "Editorial keyword grouping within Politics."
+        },
+        {
+          "id": "politics--freedom-autonomy--1",
+          "name": "Freedom & autonomy",
+          "count": 1317,
+          "file": "sections/politics--freedom-autonomy--1.json",
+          "description": "Editorial keyword grouping within Politics."
+        },
+        {
+          "id": "politics--peace-reconciliation--1",
+          "name": "Peace & reconciliation",
+          "count": 677,
+          "file": "sections/politics--peace-reconciliation--1.json",
+          "description": "Editorial keyword grouping within Politics."
+        },
+        {
+          "id": "politics--nations-citizenship--1",
+          "name": "Nations & citizenship",
+          "count": 2154,
+          "file": "sections/politics--nations-citizenship--1.json",
+          "description": "Editorial keyword grouping within Politics."
+        }
+      ]
+    }
+  ],
+  "membershipBytes": 442174,
+  "largestSection": 7944
+}

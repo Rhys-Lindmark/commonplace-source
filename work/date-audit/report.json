@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "applied": true,
+  "date": "2026-10-26",
+  "counts": {
+    "audited": 102444,
+    "unknown": 65496,
+    "work": 107,
+    "reviewed": 107,
+    "source-context": 36841,
+    "BCE": 112,
+    "disputed": 44
+  },
+  "unknownReasons": {
+    "no-unambiguous-source-date": 63548,
+    "reviewed-context-has-no-original-date": 25,
+    "edition-or-compilation-context": 1459,
+    "conflicting-source-dates": 464
+  },
+  "earliest": [
+    {
+      "id": "cq-2414c81a6ad6c547",
+      "author": "Enheduanna",
+      "source": "A Hymn to Inana (23rd century BCE)",
+      "startYear": -2300,
+      "label": "23rd–18th century BCE (disputed)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-3529147904d546c9",
+      "author": "Enheduanna",
+      "source": "A Hymn to Inana (23rd century BCE)",
+      "startYear": -2300,
+      "label": "23rd–18th century BCE (disputed)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-86f534cb8593d05f",
+      "author": "Enheduanna",
+      "source": "A Hymn to Inana (23rd century BCE)",
+      "startYear": -2300,
+      "label": "23rd–18th century BCE (disputed)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-bd81a65b200783f1",
+      "author": "Enheduanna",
+      "source": "A Hymn to Inana (23rd century BCE)",
+      "startYear": -2300,
+      "label": "23rd–18th century BCE (disputed)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-d40112daec92d16c",
+      "author": "Enheduanna",
+      "source": "A Hymn to Inana (23rd century BCE)",
+      "startYear": -2300,
+      "label": "23rd–18th century BCE (disputed)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-efea0f4d8c867663",
+      "author": "Enheduanna",
+      "source": "A Hymn to Inana (23rd century BCE)",
+      "startYear": -2300,
+      "label": "23rd–18th century BCE (disputed)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-2f08e65c868c1f12",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-3ebf83384ed2ee7b",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-3f966650124fcee9",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-585511f20ecf55c1",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-67b5f1d6acd49866",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-95753cf75c8f6ed6",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-9968f0e2a8470bf9",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-b2780ba55957a292",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-b78c9ebd3b730111",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-b952a2c4da3d77ec",
+      "author": "Ptahhotep",
+      "source": "The Maxims of Ptahhotep (c. 2350 BC)",
+      "startYear": -2000,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-114847872c5387eb",
+      "author": "Homer",
+      "source": ";Book I; ;Book II; ;Book III; ;Book IV; ;Book IX; ;Book V; ;Book VI; ;Book VII; ;Book VIII; ;Book X; ;Book XI; ;Book XII; ;Book XIII; ;Book XIV; ;Book XV; ;Book XVI; Iliad (c. 750 BC)",
+      "startYear": -800,
+      "label": "c. 800–650 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-9fa3d7de7e222cbf",
+      "author": "Homer",
+      "source": ";Book I; ;Book II; ;Book III; ;Book IV; ;Book IX; ;Book V; ;Book VI; ;Book VII; ;Book VIII; ;Book X; ;Book XI; ;Book XII; ;Book XIII; ;Book XIV; ;Book XV; ;Book XVI; Iliad (c. 750 BC)",
+      "startYear": -800,
+      "label": "c. 800–650 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-1078ace6b05beea9",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-3598b1f737465c9d",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-3df076eaa4e50dad",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-5445c9e92b8c229f",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-90a186cbeb5e04d4",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-a4db41302fa2756e",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    },
+    {
+      "id": "cq-d7cacf3aa2936b89",
+      "author": "Hesiod",
+      "source": "Works and Days (c. 700 BC)",
+      "startYear": -700,
+      "label": "c. 700 BCE",
+      "kind": "work",
+      "reviewed": true
+    }
+  ],
+  "examples": {
+    "unknown": [
+      {
+        "id": "er8h8dsPVIc6",
+        "author": "Marie Curie",
+        "date": {
+          "version": 1,
+          "kind": "unknown",
+          "reason": "no-unambiguous-source-date",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "r3wAKE9N-Nei",
+        "author": "Carl Sagan",
+        "date": {
+          "version": 1,
+          "kind": "unknown",
+          "reason": "no-unambiguous-source-date",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "iDSY05hYTVIU",
+        "author": "Galileo Galilei",
+        "date": {
+          "version": 1,
+          "kind": "unknown",
+          "reason": "no-unambiguous-source-date",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "pOAcy5-yW-3",
+        "author": "Francis Bacon",
+        "date": {
+          "version": 1,
+          "kind": "unknown",
+          "reason": "no-unambiguous-source-date",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "kgypq-6zX6Kb",
+        "author": "Charles Darwin",
+        "date": {
+          "version": 1,
+          "kind": "unknown",
+          "reason": "no-unambiguous-source-date",
+          "auditId": "bf54dec3264fadec"
+        }
+      }
+    ],
+    "work": [
+      {
+        "id": "press-darwin-0",
+        "author": "Charles Darwin",
+        "date": {
+          "version": 1,
+          "kind": "work",
+          "startYear": 1859,
+          "endYear": 1859,
+          "approximate": false,
+          "label": "1859 (first publication)",
+          "evidence": "On the Origin of Species, first edition",
+          "sourceUrls": [
+            "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html"
+          ],
+          "note": "Freeman’s bibliography identifies the 1859 first edition and 24 November publication.",
+          "reviewed": true,
+          "referenceId": "darwin-origin",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "press-emerson-0",
+        "author": "Ralph Waldo Emerson",
+        "date": {
+          "version": 1,
+          "kind": "work",
+          "startYear": 1841,
+          "endYear": 1841,
+          "approximate": false,
+          "label": "1841 (first publication)",
+          "evidence": "Essays: First Series, Self-Reliance",
+          "sourceUrls": [
+            "https://english.fas.harvard.edu/resource/sthetranscendentalistsandtheirlegacygeoffreykirschpdf"
+          ],
+          "note": "Harvard’s primary-reading chronology identifies Self-Reliance (1841).",
+          "reviewed": true,
+          "referenceId": "emerson-self-reliance",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "press-emerson-1",
+        "author": "Ralph Waldo Emerson",
+        "date": {
+          "version": 1,
+          "kind": "work",
+          "startYear": 1841,
+          "endYear": 1841,
+          "approximate": false,
+          "label": "1841 (first publication)",
+          "evidence": "Essays: First Series, Self-Reliance",
+          "sourceUrls": [
+            "https://english.fas.harvard.edu/resource/sthetranscendentalistsandtheirlegacygeoffreykirschpdf"
+          ],
+          "note": "Harvard’s primary-reading chronology identifies Self-Reliance (1841).",
+          "reviewed": true,
+          "referenceId": "emerson-self-reliance",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "press-emerson-2",
+        "author": "Ralph Waldo Emerson",
+        "date": {
+          "version": 1,
+          "kind": "work",
+          "startYear": 1841,
+          "endYear": 1841,
+          "approximate": false,
+          "label": "1841 (first publication)",
+          "evidence": "Essays: First Series, Self-Reliance",
+          "sourceUrls": [
+            "https://english.fas.harvard.edu/resource/sthetranscendentalistsandtheirlegacygeoffreykirschpdf"
+          ],
+          "note": "Harvard’s primary-reading chronology identifies Self-Reliance (1841).",
+          "reviewed": true,
+          "referenceId": "emerson-self-reliance",
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "press-emerson-3",
+        "author": "Ralph Waldo Emerson",
+        "date": {
+          "version": 1,
+          "kind": "work",
+          "startYear": 1841,
+          "endYear": 1841,
+          "approximate": false,
+          "label": "1841 (first publication)",
+          "evidence": "Essays: First Series, Self-Reliance",
+          "sourceUrls": [
+            "https://english.fas.harvard.edu/resource/sthetranscendentalistsandtheirlegacygeoffreykirschpdf"
+          ],
+          "note": "Harvard’s primary-reading chronology identifies Self-Reliance (1841).",
+          "reviewed": true,
+          "referenceId": "emerson-self-reliance",
+          "auditId": "bf54dec3264fadec"
+        }
+      }
+    ],
+    "source-context": [
+      {
+        "id": "cq-4ddc31c9dc0e2849",
+        "author": "Akbar Hashemi Rafsanjani",
+        "date": {
+          "version": 1,
+          "kind": "source-context",
+          "startYear": 2007,
+          "endYear": 2007,
+          "approximate": false,
+          "precision": "year",
+          "label": "2007",
+          "evidence": "2007",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Akbar_Hashemi_Rafsanjani"
+          ],
+          "note": "Date explicitly supplied by the source context. It has not been independently confirmed as the original composition or first publication date.",
+          "reviewed": false,
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "cq-384bade9c70b3080",
+        "author": "Eric Holder",
+        "date": {
+          "version": 1,
+          "kind": "source-context",
+          "startYear": 2015,
+          "endYear": 2015,
+          "approximate": false,
+          "precision": "year",
+          "label": "2015",
+          "evidence": "Update on Investigations in Ferguson (2015)",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Eric_Holder"
+          ],
+          "note": "Date explicitly supplied by the source context. It has not been independently confirmed as the original composition or first publication date.",
+          "reviewed": false,
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "cq-0129241eaab21ab4",
+        "author": "Orson Scott Card",
+        "date": {
+          "version": 1,
+          "kind": "source-context",
+          "startYear": 1998,
+          "endYear": 1998,
+          "approximate": false,
+          "precision": "year",
+          "label": "1998",
+          "evidence": "Homebody (1998)",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Orson_Scott_Card"
+          ],
+          "note": "Date explicitly supplied by the source context. It has not been independently confirmed as the original composition or first publication date.",
+          "reviewed": false,
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "cq-d29e01381d556728",
+        "author": "Harry V. Jaffa",
+        "date": {
+          "version": 1,
+          "kind": "source-context",
+          "startYear": 2002,
+          "endYear": 2002,
+          "approximate": false,
+          "precision": "year",
+          "label": "2002",
+          "evidence": "The Real Abraham Lincoln: A Debate (2002)",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Harry_V._Jaffa"
+          ],
+          "note": "Date explicitly supplied by the source context. It has not been independently confirmed as the original composition or first publication date.",
+          "reviewed": false,
+          "auditId": "bf54dec3264fadec"
+        }
+      },
+      {
+        "id": "cq-cc91c26efad6332d",
+        "author": "Alfred North Whitehead",
+        "date": {
+          "version": 1,
+          "kind": "source-context",
+          "startYear": 1930,
+          "endYear": 1939,
+          "approximate": false,
+          "precision": "decade",
+          "label": "1930s",
+          "evidence": "1930s",
+          "sourceUrls": [
+            "https://en.wikiquote.org/wiki/Alfred_North_Whitehead"
+          ],
+          "note": "Date explicitly supplied by the source context. It has not been independently confirmed as the original composition or first publication date.",
+          "reviewed": false,
+          "auditId": "bf54dec3264fadec"
+        }
+      }
+    ]
+  },
+  "release": "9b67668550a8c15c",
+  "unchangedContentFingerprint": "cfa21964d8e4a4d18b1565f4e5043568ea5b4804681da4aada590a514946b970",
+  "scope": "All records classified; source-context dates are explicitly unverified. No author lifetimes or dataset timestamps used."
+}

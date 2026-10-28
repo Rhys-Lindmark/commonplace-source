@@ -1,0 +1,27 @@
+[
+  {
+    "file": "goodreads-cc0-2021.zip",
+    "bytes": 260843,
+    "sha256": "454887a4d4b17aaa4714d10bd29216070e1784bbcf7245accab2b538f4a72ba8"
+  },
+  {
+    "file": "goodreads-cc0.zip",
+    "bytes": 191669,
+    "sha256": "5d8cf8d68f6354181c665064fae3756d47d000b7fa34463a4e9f473b438202f4"
+  },
+  {
+    "file": "goodreads-metadata.zip",
+    "bytes": 99816831,
+    "sha256": "59cbad2c7e66441777c2fd7ea2bea361fdf89e7df3a2ca7afbe179aecb00284e"
+  },
+  {
+    "file": "goodreads.sqlite",
+    "bytes": 318525440,
+    "sha256": "08fafef6b24754c41990c14ca4241c6796053b3c9ddbb759075cdddc44fc3111"
+  },
+  {
+    "file": "quotekg.ttl",
+    "bytes": 1070148662,
+    "sha256": "4658475365659d6282417a81641497d9fa1b9bc64bbbd2771a4afbfe55fa399f"
+  }
+]

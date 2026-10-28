@@ -1,0 +1,10 @@
+{
+  "name": "commonplace-press",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 4183 --bind 127.0.0.1 --directory dist",
+    "check": "node --check dist/dates.js && node --check dist/print.js && node --check dist/cover.js && node --check dist/cover-view.js && node --check dist/app.js && node --check dist/pdf.js && node --check dist/library-worker.js && node --check dist/library-client.js",
+    "test": "python3 tests/date-parser.test.py && python3 tests/complete-dates-parser.test.py && node tests/dates.test.cjs && node tests/complete-dates.test.cjs && node tests/sections.test.cjs && node tests/library.test.cjs && node tests/migration.test.cjs && node tests/search.test.cjs && node tests/subpath.test.cjs && node tests/expanded-data.test.cjs && node tests/print.test.cjs && node tests/cover.test.cjs && node tests/pdf.test.cjs && node tests/expanded-pdf.test.cjs"
+  }
+}

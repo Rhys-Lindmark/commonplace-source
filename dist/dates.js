@@ -1,0 +1,13 @@
+(function(root){
+'use strict';
+const kinds=['work','source-context','estimate','unknown'];
+function valid(c){if(c===undefined)return true;if(!c||![1,2].includes(c.version)||!kinds.includes(c.kind)||c.kind==='estimate'&&c.version!==2)return false;if(c.kind==='unknown')return c.startYear===undefined&&c.endYear===undefined&&typeof c.reason==='string'&&c.reason.length<=150&&(c.note===undefined||typeof c.note==='string'&&c.note.length<=2000);return Number.isInteger(c.startYear)&&Number.isInteger(c.endYear)&&c.startYear>=-3000&&c.endYear<=2026&&c.startYear!==0&&c.endYear!==0&&c.startYear<=c.endYear&&typeof c.approximate==='boolean'&&typeof c.label==='string'&&c.label.length<=120&&typeof c.evidence==='string'&&c.evidence.length<=1000&&Array.isArray(c.sourceUrls)&&c.sourceUrls.length<=8&&c.sourceUrls.every(u=>typeof u==='string'&&u.length<=1500)&&typeof c.note==='string'&&c.note.length<=2000&&typeof c.reviewed==='boolean'}
+function year(y){return y<0?`${-y} BCE`:y<1000?`${y} CE`:String(y)}
+function known(q){return valid(q.chronology)&&q.chronology&&q.chronology.kind!=='unknown'}
+function sortYear(q){return known(q)?q.chronology.startYear:Number.isInteger(q.year)&&q.year!==0?q.year:32767}
+function span(c){const a=c.startYear,b=c.endYear;if(a===b)return(c.approximate?'c. ':'')+year(a);if(c.precision==='century'||c.precision==='decade')return c.label;const value=b<0?`${-a}–${-b} BCE`:a>0?`${a}–${b}${b<1000?' CE':''}`:`${year(a)}–${year(b)}`;return(c.approximate?'c. ':'')+value}
+function label(q,{sourceSuffix=true,empty='Date not recorded',detailed=false,estimateSuffix=false}={}){if(known(q)){const c=q.chronology;if(c.kind==='estimate')return year(c.startYear)+(estimateSuffix?' · estimate':'');return(detailed?c.label:span(c)+(c.disputed?' (disputed)':''))+(sourceSuffix&&c.kind==='source-context'?' · source date':'')}return q.year===null||q.year===undefined||q.year===0?empty:year(q.year)}
+function description(q){const c=q.chronology;if(c&&valid(c)){if(c.kind==='estimate')return '';if(c.kind==='unknown')return c.note||'The original quotation or work date is unknown. No date has been inferred from the author’s lifetime, translation, or dataset release.';return c.note+(c.disputed?' The composition date or attribution is disputed.':'')}return q.year!==null&&q.year!==undefined?'Date supplied for the cited work.':'The original date has not been established.'}
+function links(q){return q.chronology&&q.chronology.kind!=='estimate'&&valid(q.chronology)?q.chronology.sourceUrls||[]:[]}
+root.CommonplaceDates={valid,sortYear,label,description,links,known};
+})(typeof window!=='undefined'?window:globalThis);

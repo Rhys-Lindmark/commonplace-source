@@ -1,0 +1,35 @@
+{
+ "Life & meaning": [
+  {"name":"Purpose & values","pattern":"purpose|meaning|meaningful|values|virtue|principle\\w*|moral\\w*|ethics|fulfillment|fulfilment|worthy|worth"},
+  {"name":"Identity & self","pattern":"identity|self|character|authentic\\w*|individual\\w*|conscience|personality|inner|soul"},
+  {"name":"Choice & responsibility","pattern":"choice\\w*|choose|chooses|choosing|decision\\w*|responsib\\w*|duty|duties|action\\w*|consequence\\w*"},
+  {"name":"Change & resilience","pattern":"change\\w*|transform\\w*|grow|growth|adapt\\w*|overcome|struggl\\w*|hardship|advers\\w*|resilien\\w*|surviv\\w*|suffering|pain|failure\\w*"},
+  {"name":"People & society","pattern":"human\\w*|mankind|people|society|social|communit\\w*|belong\\w*|together|neighbou?r\\w*"},
+  {"name":"Joy & wellbeing","pattern":"happy|happiness|joy\\w*|contentment|pleasure|gratitude|health\\w*|wellbeing|well-being|peace"},
+  {"name":"Work & ambition","pattern":"work\\w*|labor|labour|money|wealth|rich\\w*|poor|poverty|ambition\\w*|goal\\w*|success|succeed\\w*|achieve\\w*|effort\\w*"}
+ ],
+ "Learning": [
+  {"name":"Education & teaching","pattern":"educat\\w*|teach\\w*|school\\w*|student\\w*|classroom\\w*|curricul\\w*|mentor\\w*|lesson\\w*"},
+  {"name":"Knowledge & understanding","pattern":"knowledge|understand\\w*|comprehend\\w*|ignorance|insight\\w*|awareness|wisdom"},
+  {"name":"Questions & discovery","pattern":"question\\w*|curious|curiosity|wonder\\w*|inquir\\w*|discover\\w*|explor\\w*|investigat\\w*|answer\\w*|experiment\\w*|evidence"},
+  {"name":"Reading & study","pattern":"read|reading|reads|reader\\w*|book\\w*|study|studies|studied|studying|library|libraries|literature"},
+  {"name":"Practice & experience","pattern":"practice\\w*|practis\\w*|experience\\w*|mistake\\w*|skill\\w*|train\\w*|master\\w*|apprenticeship|trial"}
+ ],
+ "Time": [
+  {"name":"Patience & waiting","pattern":"patien\\w*|wait\\w*|slow\\w*|haste|hurry|hurried|rush\\w*"},
+  {"name":"Past & memory","pattern":"past|yesterday|memory|memories|remember\\w*|nostalgia|nostalgic|recollect\\w*"},
+  {"name":"Future & possibility","pattern":"future|tomorrow|possibility|possibilities|potential|someday"},
+  {"name":"Present moments","pattern":"present|moment\\w*|today|now|mindful\\w*|attention"},
+  {"name":"Aging & change","pattern":"aging|ageing|age|older|youth|young|season\\w*|change\\w*|grow|growth|decay"},
+  {"name":"Eternity & impermanence","pattern":"etern\\w*|forever|immortal\\w*|mortal\\w*|impermanen\\w*|transient|fleeting|temporary|ephemeral"},
+  {"name":"Time & priorities","pattern":"clock\\w*|hour\\w*|minute\\w*|deadline\\w*|schedule\\w*|busy|priorities|priority|waste|wasted|wasting"}
+ ],
+ "Politics": [
+  {"name":"Government & democracy","pattern":"govern\\w*|democra\\w*|election\\w*|vote\\w*|voting|voter\\w*|parliament\\w*|congress\\w*|minister\\w*|president\\w*|legislat\\w*|politic\\w*"},
+  {"name":"Justice & equality","pattern":"justice|injust\\w*|equality|inequali\\w*|equity|rights|law|laws|legal|court\\w*|crime\\w*|police|oppression|discrimination"},
+  {"name":"War & conflict","pattern":"war|wars|warfare|army|armies|military|soldier\\w*|battle\\w*|weapon\\w*|conflict\\w*|invasion|enemy|enemies"},
+  {"name":"Freedom & autonomy","pattern":"freedom|liberty|liberties|free|autonomy|independen\\w*|liberat\\w*"},
+  {"name":"Peace & reconciliation","pattern":"peace|peaceful|reconciliation|reconcile|harmony|nonviolen\\w*|truce|forgiveness"},
+  {"name":"Nations & citizenship","pattern":"nation\\w*|citizen\\w*|country|countries|patriot\\w*|homeland|border\\w*|republic\\w*|sovereign\\w*"}
+ ]
+}

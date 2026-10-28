@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-27T01:17:19.101Z",
+  "titles": 16381,
+  "identifiedWorks": 3450,
+  "authorAndDateMatches": 965,
+  "unambiguousQuoteMatches": 905,
+  "policy": "Exact Wikipedia title plus Wikidata credited-author identity; exclude dates outside known author lifetime with20year posthumous-publication allowance."
+}

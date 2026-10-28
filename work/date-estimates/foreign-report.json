@@ -1,0 +1,269 @@
+{
+  "at": "2026-10-27T01:32:20.770Z",
+  "requested": 51,
+  "resolved": 50,
+  "entries": {
+    "деивидхороуиц": {
+      "entity": "Q722462",
+      "title": "Дейвид Хороуиц",
+      "source": "https://bg.wikiquote.org/wiki/%D0%94%D0%B5%D0%B9%D0%B2%D0%B8%D0%B4_%D0%A5%D0%BE%D1%80%D0%BE%D1%83%D0%B8%D1%86",
+      "identityVia": "https://en.wikipedia.org/wiki/David_Horowitz"
+    },
+    "арнълдхенригласоу": {
+      "entity": "Q50419368",
+      "title": "Арнълд Хенри Гласоу",
+      "source": "https://bg.wikiquote.org/wiki/%D0%90%D1%80%D0%BD%D1%8A%D0%BB%D0%B4_%D0%A5%D0%B5%D0%BD%D1%80%D0%B8_%D0%93%D0%BB%D0%B0%D1%81%D0%BE%D1%83"
+    },
+    "джерихол": {
+      "entity": "Q239476",
+      "title": "Джери Хол",
+      "source": "https://bg.wikiquote.org/wiki/%D0%94%D0%B6%D0%B5%D1%80%D0%B8_%D0%A5%D0%BE%D0%BB",
+      "identityVia": "https://en.wikipedia.org/wiki/Jerry_Hall"
+    },
+    "ренеясенек": {
+      "entity": "Q50415157",
+      "title": "Рене Ясенек",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A0%D0%B5%D0%BD%D0%B5_%D0%AF%D1%81%D0%B5%D0%BD%D0%B5%D0%BA"
+    },
+    "уилямлаиънфелпс": {
+      "entity": "Q50414854",
+      "title": "Уилям Лайън Фелпс",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A3%D0%B8%D0%BB%D1%8F%D0%BC_%D0%9B%D0%B0%D0%B9%D1%8A%D0%BD_%D0%A4%D0%B5%D0%BB%D0%BF%D1%81"
+    },
+    "даянфаинстеин": {
+      "entity": "Q230733",
+      "title": "Даян Файнстейн",
+      "source": "https://bg.wikiquote.org/wiki/%D0%94%D0%B0%D1%8F%D0%BD_%D0%A4%D0%B0%D0%B9%D0%BD%D1%81%D1%82%D0%B5%D0%B9%D0%BD",
+      "identityVia": "https://en.wikipedia.org/wiki/Dianne_Feinstein"
+    },
+    "хюхопър": {
+      "entity": "Q711122",
+      "title": "Хю Хопър",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A5%D1%8E_%D0%A5%D0%BE%D0%BF%D1%8A%D1%80",
+      "identityVia": "https://en.wikipedia.org/wiki/Hugh_Hopper"
+    },
+    "хедахопър": {
+      "entity": "Q271324",
+      "title": "Хеда Хопър",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A5%D0%B5%D0%B4%D0%B0_%D0%A5%D0%BE%D0%BF%D1%8A%D1%80",
+      "identityVia": "https://en.wikipedia.org/wiki/Hedda_Hopper"
+    },
+    "джефричардс": {
+      "entity": "Q50414875",
+      "title": "Джеф Ричардс",
+      "source": "https://bg.wikiquote.org/wiki/%D0%94%D0%B6%D0%B5%D1%84_%D0%A0%D0%B8%D1%87%D0%B0%D1%80%D0%B4%D1%81"
+    },
+    "харланмилър": {
+      "entity": "Q50415018",
+      "title": "Харлан Милър",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BD_%D0%9C%D0%B8%D0%BB%D1%8A%D1%80"
+    },
+    "хекторхюмънроусаки": {
+      "entity": "Q50415006",
+      "title": "Хектор Хю Мънроу — Саки",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A5%D0%B5%D0%BA%D1%82%D0%BE%D1%80_%D0%A5%D1%8E_%D0%9C%D1%8A%D0%BD%D1%80%D0%BE%D1%83_%E2%80%94_%D0%A1%D0%B0%D0%BA%D0%B8"
+    },
+    "патрикмъри": {
+      "entity": "Q50419258",
+      "title": "Патрик Мъри",
+      "source": "https://bg.wikiquote.org/wiki/%D0%9F%D0%B0%D1%82%D1%80%D0%B8%D0%BA_%D0%9C%D1%8A%D1%80%D0%B8"
+    },
+    "марионкелог": {
+      "entity": "Q50414829",
+      "title": "Марион Келог",
+      "source": "https://bg.wikiquote.org/wiki/%D0%9C%D0%B0%D1%80%D0%B8%D0%BE%D0%BD_%D0%9A%D0%B5%D0%BB%D0%BE%D0%B3"
+    },
+    "грантмилър": {
+      "entity": "Q50414872",
+      "title": "Грант Милър",
+      "source": "https://bg.wikiquote.org/wiki/%D0%93%D1%80%D0%B0%D0%BD%D1%82_%D0%9C%D0%B8%D0%BB%D1%8A%D1%80"
+    },
+    "артемъсуорд": {
+      "entity": "Q50419261",
+      "title": "Артемъс Уорд",
+      "source": "https://bg.wikiquote.org/wiki/%D0%90%D1%80%D1%82%D0%B5%D0%BC%D1%8A%D1%81_%D0%A3%D0%BE%D1%80%D0%B4"
+    },
+    "бъртичарлзфорбс": {
+      "entity": "Q50414970",
+      "title": "Бърти Чарлз Форбс",
+      "source": "https://bg.wikiquote.org/wiki/%D0%91%D1%8A%D1%80%D1%82%D0%B8_%D0%A7%D0%B0%D1%80%D0%BB%D0%B7_%D0%A4%D0%BE%D1%80%D0%B1%D1%81"
+    },
+    "викторшлихтер": {
+      "entity": "Q50414814",
+      "title": "Виктор Шлихтер",
+      "source": "https://bg.wikiquote.org/wiki/%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%A8%D0%BB%D0%B8%D1%85%D1%82%D0%B5%D1%80"
+    },
+    "джекуорнър": {
+      "entity": "Q50414914",
+      "title": "Джек Уорнър",
+      "source": "https://bg.wikiquote.org/wiki/%D0%94%D0%B6%D0%B5%D0%BA_%D0%A3%D0%BE%D1%80%D0%BD%D1%8A%D1%80"
+    },
+    "марионсмит": {
+      "entity": "Q50415182",
+      "title": "Марион Смит",
+      "source": "https://bg.wikiquote.org/wiki/%D0%9C%D0%B0%D1%80%D0%B8%D0%BE%D0%BD_%D0%A1%D0%BC%D0%B8%D1%82"
+    },
+    "баригибънс": {
+      "entity": "Q50419356",
+      "title": "Бари Гибънс",
+      "source": "https://bg.wikiquote.org/wiki/%D0%91%D0%B0%D1%80%D0%B8_%D0%93%D0%B8%D0%B1%D1%8A%D0%BD%D1%81"
+    },
+    "тедуаитхед": {
+      "entity": "Q50415023",
+      "title": "Тед Уайтхед",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A2%D0%B5%D0%B4_%D0%A3%D0%B0%D0%B9%D1%82%D1%85%D0%B5%D0%B4"
+    },
+    "люкфорд": {
+      "entity": "Q2437",
+      "title": "Люк Форд",
+      "source": "https://bg.wikiquote.org/wiki/%D0%9B%D1%8E%D0%BA_%D0%A4%D0%BE%D1%80%D0%B4",
+      "identityVia": "https://bg.wikipedia.org/wiki/1981"
+    },
+    "честъркарас": {
+      "entity": "Q50419380",
+      "title": "Честър Карас",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A7%D0%B5%D1%81%D1%82%D1%8A%D1%80_%D0%9A%D0%B0%D1%80%D0%B0%D1%81"
+    },
+    "чарлзджулиш": {
+      "entity": "Q50415058",
+      "title": "Чарлз Джулиш",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B7_%D0%94%D0%B6%D1%83%D0%BB%D0%B8%D1%88"
+    },
+    "мортимъркаплан": {
+      "entity": "Q50419265",
+      "title": "Мортимър Каплан",
+      "source": "https://bg.wikiquote.org/wiki/%D0%9C%D0%BE%D1%80%D1%82%D0%B8%D0%BC%D1%8A%D1%80_%D0%9A%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD"
+    },
+    "робъртмеинардхътчинс": {
+      "entity": "Q50419259",
+      "title": "Робърт Мейнард Хътчинс",
+      "source": "https://bg.wikiquote.org/wiki/%D0%A0%D0%BE%D0%B1%D1%8A%D1%80%D1%82_%D0%9C%D0%B5%D0%B9%D0%BD%D0%B0%D1%80%D0%B4_%D0%A5%D1%8A%D1%82%D1%87%D0%B8%D0%BD%D1%81"
+    },
+    "джулибърщаин": {
+      "entity": "Q50419408",
+      "title": "Джули Бърщайн",
+      "source": "https://bg.wikiquote.org/wiki/%D0%94%D0%B6%D1%83%D0%BB%D0%B8_%D0%91%D1%8A%D1%80%D1%89%D0%B0%D0%B9%D0%BD"
+    },
+    "ferrucciomasini": {
+      "entity": "Q16555813",
+      "title": "Ferruccio Masini",
+      "source": "https://it.wikiquote.org/wiki/Ferruccio_Masini"
+    },
+    "andreapiovan": {
+      "entity": "Q3615943",
+      "title": "Andrea Piovan",
+      "source": "https://it.wikiquote.org/wiki/Andrea_Piovan"
+    },
+    "flaviotranquillo": {
+      "entity": "Q3746525",
+      "title": "Flavio Tranquillo",
+      "source": "https://it.wikiquote.org/wiki/Flavio_Tranquillo"
+    },
+    "filippogatti": {
+      "entity": "Q3745206",
+      "title": "Filippo Gatti",
+      "source": "https://it.wikiquote.org/wiki/Filippo_Gatti"
+    },
+    "juliendevalckenaere": {
+      "entity": "Q19357689",
+      "title": "Julien De Valckenaere",
+      "source": "https://it.wikiquote.org/wiki/Julien_De_Valckenaere"
+    },
+    "andreapoltronieri": {
+      "entity": "Q3615954",
+      "title": "Andrea Poltronieri",
+      "source": "https://it.wikiquote.org/wiki/Andrea_Poltronieri"
+    },
+    "fusiditestawaynesworld": {
+      "entity": "Q1146194",
+      "title": "Fusi di testa - Wayne's World",
+      "source": "https://it.wikiquote.org/wiki/Fusi_di_testa_-_Wayne's_World"
+    },
+    "pocahontasfilm1995disney": {
+      "entity": "Q218894",
+      "title": "Pocahontas (film 1995 Disney)",
+      "source": "https://it.wikiquote.org/wiki/Pocahontas_(film_1995_Disney)"
+    },
+    "pierpaololauriola": {
+      "entity": "Q16590297",
+      "title": "Pierpaolo Lauriola",
+      "source": "https://it.wikiquote.org/wiki/Pierpaolo_Lauriola"
+    },
+    "allaricercadinemo": {
+      "entity": "Q132863",
+      "title": "Alla ricerca di Nemo",
+      "source": "https://it.wikiquote.org/wiki/Alla_ricerca_di_Nemo"
+    },
+    "pederstianmadsen": {
+      "entity": "Q17103236",
+      "title": "Peder Stian Madsen",
+      "source": "https://no.wikiquote.org/wiki/Peder_Stian_Madsen"
+    },
+    "andrzejwarchał": {
+      "entity": "Q9153886",
+      "title": "Andrzej Warchał",
+      "source": "https://pl.wikiquote.org/wiki/Andrzej_Warcha%C5%82",
+      "identityVia": "https://pl.wikipedia.org/wiki/Andrzej_Warcha%C5%82"
+    },
+    "maciejrock": {
+      "entity": "Q11765608",
+      "title": "Maciej Rock",
+      "source": "https://pl.wikiquote.org/wiki/Maciej_Rock",
+      "identityVia": "https://pl.wikipedia.org/wiki/Maciej_Rock"
+    },
+    "adamskalski": {
+      "entity": "Q11790984",
+      "title": "Adam Skalski",
+      "source": "https://pl.wikiquote.org/wiki/Adam_Skalski",
+      "identityVia": "https://pl.wikipedia.org/wiki/Niania_(ujednoznacznienie)"
+    },
+    "rischanmafrur": {
+      "entity": "Q25462465",
+      "title": "Rischan Mafrur",
+      "source": "https://id.wikiquote.org/wiki/Rischan_Mafrur"
+    },
+    "jarihedman": {
+      "entity": "Q20913261",
+      "title": "Jari Hedman",
+      "source": "https://fi.wikiquote.org/wiki/Jari_Hedman"
+    },
+    "mikasaukkonen": {
+      "entity": "Q5493610",
+      "title": "Mika Saukkonen",
+      "source": "https://fi.wikiquote.org/wiki/Mika_Saukkonen"
+    },
+    "ibrahimevsan": {
+      "entity": "Q1655965",
+      "title": "Ibrahim Evsan",
+      "source": "https://de.wikiquote.org/wiki/Ibrahim_Evsan",
+      "identityVia": "https://de.wikipedia.org/wiki/Ibrahim_Evsan"
+    },
+    "андреигарольдовичкнышев": {
+      "entity": "Q4224775",
+      "title": "Андрей Гарольдович Кнышев",
+      "source": "https://ru.wikiquote.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%93%D0%B0%D1%80%D0%BE%D0%BB%D1%8C%D0%B4%D0%BE%D0%B2%D0%B8%D1%87_%D0%9A%D0%BD%D1%8B%D1%88%D0%B5%D0%B2",
+      "identityVia": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BD%D1%8B%D1%88%D0%B5%D0%B2%2C_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%93%D0%B0%D1%80%D0%BE%D0%BB%D1%8C%D0%B4%D0%BE%D0%B2%D0%B8%D1%87"
+    },
+    "olavmol": {
+      "entity": "Q2576560",
+      "title": "Olav Mol",
+      "source": "https://nl.wikiquote.org/wiki/Olav_Mol",
+      "identityVia": "https://nl.wikipedia.org/wiki/Olav_Mol"
+    },
+    "belindaolsson": {
+      "entity": "Q4971103",
+      "title": "Belinda Olsson",
+      "source": "https://sv.wikiquote.org/wiki/Belinda_Olsson"
+    },
+    "walterpulitzer": {
+      "entity": "Q16622992",
+      "title": "Walter Pulitzer",
+      "source": "https://sv.wikiquote.org/wiki/Walter_Pulitzer"
+    },
+    "jhyweyshieh": {
+      "entity": "Q8357111",
+      "title": "謝志偉 (台灣)",
+      "source": "https://zh.wikiquote.org/wiki/%E8%AC%9D%E5%BF%97%E5%81%89_(%E5%8F%B0%E7%81%A3)"
+    }
+  }
+}

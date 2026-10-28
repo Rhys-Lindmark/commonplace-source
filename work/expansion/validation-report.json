@@ -1,0 +1,22 @@
+{
+  "recordCount": 102444,
+  "sourceCount": 97874,
+  "knownLikes": 3276,
+  "goodreadsQuoteCount": 2444,
+  "authors": 19332,
+  "topicCount": 34,
+  "variants": 7,
+  "missingYears": 102437,
+  "manifestBytes": 397432,
+  "startupBytes": 3675640,
+  "queryMilliseconds": {
+    "firstPage": 8,
+    "scienceAndAge": 5.4,
+    "authorPrefix": 7.6,
+    "lastPage": 4.2,
+    "favorites": 4.1,
+    "goodreadsMostLiked": 17.4
+  },
+  "totalFetchedRecordChunks": 15,
+  "unsupportedCharacters": []
+}

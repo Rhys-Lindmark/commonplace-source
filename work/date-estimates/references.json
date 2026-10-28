@@ -1,0 +1,626 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-26",
+  "scope": "Additional source-based dates before author-lifespan fallback; no corpus modifications.",
+  "matchingRules": {
+    "priority": "Validated quoteIds + authorPattern + textPattern guards first, then author/work context rules, then conservative source extraction, finally lifespan estimate.",
+    "regexFlags": "case-insensitive",
+    "dateMeaning": "Attested source/work date, not a claim of first-ever utterance or first publication of modern paraphrase.",
+    "noYearInQuoteText": true
+  },
+  "quoteMappings": [
+    {
+      "id": "gandhi-forgiveness-1931",
+      "quoteIds": [
+        "-kr3shAHWtGr"
+      ],
+      "authorPattern": "^Mahatma Gandhi,?$",
+      "textPattern": "^The weak can never forgive\\.",
+      "startYear": 1931,
+      "endYear": 1931,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "attested-publication",
+      "evidence": "Young India, 2 April 1931, p.59; Gandhi archive reproduces the passage with its issue citation.",
+      "basis": "Young India, 2 April 1931, p.59; Gandhi archive reproduces the passage with its issue citation.",
+      "sourceUrls": [
+        "https://www.mkgandhi-sarvodaya.org/momgandhi/chap88.htm"
+      ],
+      "wordingVariant": false,
+      "note": "Publication date is securely cited. This does not assert the interview took place that day.",
+      "attestedOn": "1931-04-02",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "-kr3shAHWtGr"
+      ]
+    },
+    {
+      "id": "gandhi-love-life-1920",
+      "quoteIds": [
+        "Dp-ZJ6WsmYqu"
+      ],
+      "authorPattern": "^Mahatma Gandhi,?$",
+      "textPattern": "^Where there is love",
+      "startYear": 1920,
+      "endYear": 1920,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "attested-publication",
+      "evidence": "Gandhi archive places the love/life passage at Young India, 5 May 1920, p.7.",
+      "basis": "Gandhi archive places the love/life passage at Young India, 5 May 1920, p.7.",
+      "sourceUrls": [
+        "https://www.mkgandhi-sarvodaya.org/momgandhi/chap88.htm"
+      ],
+      "wordingVariant": true,
+      "note": "Archive transcription has a duplicated where in the familiar line; the year dates the underlying passage, not every normalized modern wording.",
+      "attestedOn": "1920-05-05",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "Dp-ZJ6WsmYqu"
+      ]
+    },
+    {
+      "id": "einstein-imagination-1929",
+      "quoteIds": [
+        "ostJK0TXUf",
+        "cq-6a55bc7134c480b5"
+      ],
+      "authorPattern": "^Albert Einstein,?$",
+      "textPattern": "Imagination is more important than knowledge",
+      "startYear": 1929,
+      "endYear": 1929,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "attested-publication",
+      "evidence": "Publisher-hosted facsimile of What Life Means to Einstein, interview by George Sylvester Viereck, The Saturday Evening Post, 26 October 1929, p.117.",
+      "basis": "Publisher-hosted facsimile of What Life Means to Einstein, interview by George Sylvester Viereck, The Saturday Evening Post, 26 October 1929, p.117.",
+      "sourceUrls": [
+        "https://www.saturdayeveningpost.com/wp-content/uploads/satevepost/what_life_means_to_einstein.pdf"
+      ],
+      "wordingVariant": true,
+      "note": "Short seed is an excerpt; fuller record has minor a/the artist wording variation. Do not apply to the expanded z6ZCI63jw-9k version: its added sentence is absent from the verified passage.",
+      "attestedOn": "1929-10-26",
+      "matchCount": 2,
+      "unknownBeforeCount": 2,
+      "sampleIds": [
+        "ostJK0TXUf",
+        "cq-6a55bc7134c480b5"
+      ]
+    },
+    {
+      "id": "einstein-bicycle-1930",
+      "quoteIds": [
+        "HHqa6LTGObSq"
+      ],
+      "authorPattern": "^Albert Einstein,?$",
+      "textPattern": "^Life is like riding a bicycle\\.",
+      "startYear": 1930,
+      "endYear": 1930,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "letter",
+      "evidence": "Catalog of Einstein’s autograph letters explicitly dates the bicycle comparison to the Eduard letter of 5 February 1930.",
+      "basis": "Catalog of Einstein’s autograph letters explicitly dates the bicycle comparison to the Eduard letter of 5 February 1930.",
+      "sourceUrls": [
+        "https://www.christies.com.cn/lot/einstein-albert-two-autograph-letters-signed-papa-1793948/?intObjectID=1793948&lid=1"
+      ],
+      "wordingVariant": true,
+      "note": "The familiar life/riding formulation is a circulating English rendering; catalog translation speaks of people and bicycles. Source year is attested; first appearance of this exact English wording is not established.",
+      "attestedOn": "1930-02-05",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "HHqa6LTGObSq"
+      ]
+    },
+    {
+      "id": "king-dark-stars-1968",
+      "quoteIds": [
+        "cq-a85a8fbb583d015c"
+      ],
+      "authorPattern": "^Martin Luther King,? Jr\\.,?$",
+      "textPattern": "only when it is dark enough.*see the stars",
+      "startYear": 1968,
+      "endYear": 1968,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "speech",
+      "evidence": "Estate-authorized Mountaintop transcript contains this line; Stanford King Institute dates the speech 3 April 1968.",
+      "basis": "Estate-authorized Mountaintop transcript contains this line; Stanford King Institute dates the speech 3 April 1968.",
+      "sourceUrls": [
+        "https://afscme.org/about/history/mlk/mountaintop/",
+        "https://kinginstitute.stanford.edu/ive-been-mountaintop"
+      ],
+      "wordingVariant": false,
+      "note": "Only the King-attributed record. Charles A. Beard records containing a similar stars phrase must not inherit this date.",
+      "attestedOn": "1968-04-03",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "cq-a85a8fbb583d015c"
+      ]
+    },
+    {
+      "id": "mandela-education-2003",
+      "quoteIds": [
+        "zZGkrVvwzUaZ"
+      ],
+      "authorPattern": "^Nelson Mandela,?$",
+      "textPattern": "^Education is the most powerful weapon",
+      "startYear": 2003,
+      "endYear": 2003,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "attested-speech",
+      "evidence": "UN exhibition attributes the education/weapon passage to the Mindset Network launch, Johannesburg, 16 July 2003.",
+      "basis": "UN exhibition attributes the education/weapon passage to the Mindset Network launch, Johannesburg, 16 July 2003.",
+      "sourceUrls": [
+        "https://www.un.org/en/exhibits/page/building-legacy-nelson-mandela"
+      ],
+      "wordingVariant": true,
+      "note": "Circulating we/you/which variants exist. An earlier shorter education-as-weapon formulation is associated with 1990; 2003 dates this attested speech, not proven first utterance.",
+      "attestedOn": "2003-07-16",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "zZGkrVvwzUaZ"
+      ]
+    },
+    {
+      "id": "emerson-enthusiasm-1841",
+      "quoteIds": [
+        "8pxScew8Z6Fg"
+      ],
+      "authorPattern": "^Ralph Waldo Emerson,?$",
+      "textPattern": "^Nothing great was ever achieved without enthusiasm\\.",
+      "startYear": 1841,
+      "endYear": 1841,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "work-publication",
+      "evidence": "The sentence occurs in Circles, Essays: First Series; primary-text transcription and library concordance identify it. The volume was first published in 1841.",
+      "basis": "The sentence occurs in Circles, Essays: First Series; primary-text transcription and library concordance identify it. The volume was first published in 1841.",
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/2944/2944-h/2944-h.htm",
+        "https://emersoncentral.com/ebook/Circles.pdf",
+        "https://concordlibrary.org/special-collections/emerson-concordance/ENGRAFT-ENTHUSI"
+      ],
+      "wordingVariant": false,
+      "note": "Dates the published essay rather than a documented earlier utterance.",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "8pxScew8Z6Fg"
+      ]
+    },
+    {
+      "id": "emerson-strength-1841",
+      "quoteIds": [
+        "2iQU_-0nv8x"
+      ],
+      "authorPattern": "^Ralph Waldo Emerson,?$",
+      "textPattern": "^Our strength grows out of our weakness",
+      "startYear": 1841,
+      "endYear": 1841,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "work-publication",
+      "evidence": "The sentence occurs in Compensation, Essays: First Series (1841), in the primary text.",
+      "basis": "The sentence occurs in Compensation, Essays: First Series (1841), in the primary text.",
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/2944/2944-h/2944-h.htm",
+        "https://emersoncentral.com/ebook/Circles.pdf"
+      ],
+      "wordingVariant": true,
+      "note": "Record uses plural weaknesses; primary text has weakness. Date identifies the underlying essay passage.",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "2iQU_-0nv8x"
+      ]
+    },
+    {
+      "id": "thoreau-chairs-1854",
+      "quoteIds": [
+        "IARxwjpiXK"
+      ],
+      "authorPattern": "^Henry David Thoreau,?$",
+      "textPattern": "^I had three chairs in my house",
+      "startYear": 1854,
+      "endYear": 1854,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "work-publication",
+      "evidence": "Walden, Visitors, contains the passage; USF’s primary-text edition explicitly cites the 1854 Ticknor and Fields book.",
+      "basis": "Walden, Visitors, contains the passage; USF’s primary-text edition explicitly cites the 1854 Ticknor and Fields book.",
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/205/205-h/205-h.htm",
+        "https://etc.usf.edu/lit2go/90/walden-or-life-in-the-woods/1548/visitors/"
+      ],
+      "wordingVariant": false,
+      "note": "Do not confuse publication in 1854 with the narrated cabin years.",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "IARxwjpiXK"
+      ]
+    },
+    {
+      "id": "thoreau-change-1854",
+      "quoteIds": [
+        "4eJZzWraMFLH"
+      ],
+      "authorPattern": "^Henry David Thoreau,?$",
+      "textPattern": "^Things do not change; we change\\.",
+      "startYear": 1854,
+      "endYear": 1854,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "dateType": "work-publication",
+      "evidence": "Walden, Conclusion, contains this sentence; its book publication is 1854.",
+      "basis": "Walden, Conclusion, contains this sentence; its book publication is 1854.",
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/205/205-h/205-h.htm",
+        "https://etc.usf.edu/lit2go/90/walden-or-life-in-the-woods/1548/visitors/"
+      ],
+      "wordingVariant": false,
+      "note": "Dates the work publication, not the date narrated in surrounding prose.",
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "4eJZzWraMFLH"
+      ]
+    }
+  ],
+  "mappings": [
+    {
+      "id": "emerson-first-series-1841",
+      "authorPattern": "^Ralph Waldo Emerson,?$",
+      "workPattern": "\\b(?:Circles|Compensation|Essays[: ,–—-]+First Series)\\b",
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ],
+      "startYear": 1841,
+      "endYear": 1841,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "basis": "First-series essay publication; do not extend to Essays: Second Series (1844).",
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/2944/2944-h/2944-h.htm",
+        "https://emersoncentral.com/ebook/Circles.pdf"
+      ],
+      "matchCount": 8,
+      "unknownBeforeCount": 0,
+      "sampleIds": [
+        "press-emerson-0",
+        "press-emerson-1",
+        "press-emerson-2",
+        "press-emerson-3"
+      ]
+    },
+    {
+      "id": "thoreau-week-1849",
+      "authorPattern": "^Henry David Thoreau,?$",
+      "workPattern": "\\bA Week on the Concord and Merrimack Rivers\\b",
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ],
+      "startYear": 1849,
+      "endYear": 1849,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "basis": "Huntington rare-book record dates original publication to 1849. Corpus citation (1894) identifies a later edition; that carrier date is separate.",
+      "sourceUrls": [
+        "https://www.huntington.org/collections/lib-337586"
+      ],
+      "matchCount": 3,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "cq-651545cce4542320",
+        "cq-c7e77e84922c6815",
+        "cq-5b8053d9254a5f69"
+      ]
+    },
+    {
+      "id": "emerson-boston-hymn-1863",
+      "authorPattern": "^Ralph Waldo Emerson,?$",
+      "workPattern": "\\bBoston Hymn\\b",
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ],
+      "startYear": 1863,
+      "endYear": 1863,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "basis": "Primary collected poem labels its public reading in Music Hall, 1 January 1863. Do not infer composition that day: surviving manuscript can be 1862.",
+      "sourceUrls": [
+        "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/1964/Emerson_1236-09_EBk_v6.0.pdf"
+      ],
+      "matchCount": 1,
+      "unknownBeforeCount": 1,
+      "sampleIds": [
+        "cq-c17ceb8fe7641463"
+      ]
+    },
+    {
+      "id": "king-mountaintop-1968",
+      "authorPattern": "^Martin Luther King,? Jr\\.,?$",
+      "workPattern": "\\b(?:Mountaintop|Mountain Top)\\b",
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ],
+      "startYear": 1968,
+      "endYear": 1968,
+      "approximate": false,
+      "estimated": false,
+      "reviewed": true,
+      "kind": "work",
+      "basis": "Date of the documented 3 April 1968 speech; not every undated saying by King.",
+      "sourceUrls": [
+        "https://afscme.org/about/history/mlk/mountaintop/",
+        "https://kinginstitute.stanford.edu/ive-been-mountaintop"
+      ],
+      "matchCount": 1,
+      "unknownBeforeCount": 0,
+      "sampleIds": [
+        "cq-dc882a7ffa2c52d4"
+      ]
+    }
+  ],
+  "unusedWorkRulesWithoutDirectContexts": [
+    "thoreau-walden-1854",
+    "einstein-interview-1929",
+    "mandela-mindset-2003"
+  ],
+  "extractionGuards": [
+    {
+      "id": "all-citation-fields",
+      "recommendation": "Inspect source, descriptions and citations. Existing classify() ignores citations entirely.",
+      "testInput": "January 23, 2019 (;)",
+      "expectedYear": 2019,
+      "confidence": "source-context unless separately verified"
+    },
+    {
+      "id": "punctuation-only-suffix",
+      "recommendation": "Strip trailing punctuation-only wrappers such as (;), but do not remove substantive parentheses containing edition or competing dates.",
+      "testInput": "January 23, 2019 (;)",
+      "expectedYear": 2019
+    },
+    {
+      "id": "primary-event-before-carrier",
+      "recommendation": "Prefer a clearly attached letter/speech/interview date over its later reprint; retain both typed dates. Do not take the minimum or maximum arbitrary year.",
+      "testInput": "Letter to Pamela Clemens Moffet, 9 November 1869, in Mark Twain’s Letters (1917)",
+      "expectedYear": 1869,
+      "rejectedOriginalYear": 1917
+    },
+    {
+      "id": "historical-work-title",
+      "recommendation": "Years describing a book’s historical subject are not its publication. Parse a publication-tail year only when unambiguous.",
+      "testInput": "How Science Was Born in 300 BC ... (2004)",
+      "expectedYear": 2004,
+      "rejectedOriginalYear": -300
+    },
+    {
+      "id": "compilation-and-narrative",
+      "recommendation": "Lifetime, posthumous anthology, ebook update and narrated event dates remain separate. Prior reviewed ancient rules must win over modern carriers."
+    },
+    {
+      "id": "page-and-bekker-number",
+      "recommendation": "Reject page/section/Bekker and bibliographic volume numbers; require digit boundaries.",
+      "testInput": "Book II, 1103b",
+      "expectedYear": null
+    },
+    {
+      "id": "conflicting-dates",
+      "recommendation": "If multiple equally plausible dates survive, estimate after source checks rather than manufacture an exact date. Do not resolve conflict by smallest year."
+    },
+    {
+      "id": "identity-and-estimation",
+      "recommendation": "Retain source-based versus author-lifespan-estimated metadata. Verify author identity/type, normalize punctuation aliases, and never treat a quotation date as verified merely because a birth/death estimate is numerically plausible."
+    }
+  ],
+  "extractionExamples": [
+    {
+      "quoteId": "cq-efb4ada4a75d9d35",
+      "author": "Stephen Joseph Rossetti",
+      "citation": "The Masculinity of the Priest: An Interview with Father Stephen J. Rossetti (December 8, 2005)",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-ce92e6920af721f3",
+      "author": "Margaret Fuller",
+      "citation": "Of this comment Perry Miller states \"the fact is that at Emerson's table she was speaking the truth.\" \"I find no intellect comparable to my own\" in American Heritage magazine, Vol. 8, Issue 2 (February 1957)",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-ea9251b142d88769",
+      "author": "Charles Sumner",
+      "citation": "Speech (1870)",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-cd7e42072d7e176c",
+      "author": "Theobald Wolfe Tone",
+      "citation": "Declaration and resolutions of the Society of United Irishmen of Belfast (18 October 1791), quoted in T. W. Moody, R. B. McDowell and C. J. Woods (eds.), The Writings of Theobald Wolfe Tone, 1763–98, Volume I: Tone's career in Ireland to June 1795 (1998), p. 140",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-d716e1d8c0b8aa6d",
+      "author": "Dov Charney",
+      "citation": "Ellenson, Ruth (2005). \"Unfashionable Crisis\" The Jewish Journal (accessed August 8, 2006)",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-e6838fcb0e1346c8",
+      "author": "Vytautas Juozapaitis",
+      "citation": "Boston Herald (September 25, 2003)",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-5a5c90868d37c552",
+      "author": "Hale Boggs",
+      "citation": "Speech before Congress (April 22, 1971)",
+      "reviewed": false
+    },
+    {
+      "quoteId": "cq-d4892f8c0281cd4b",
+      "author": "Lorin Morgan-Richards",
+      "citation": "as quoted in Barry GEM \"Barry GEM\" \"Book on the trail of the Welsh Americans” (20 January 2016).",
+      "reviewed": false
+    }
+  ],
+  "doNotAutomaticallyDate": [
+    {
+      "quoteId": "z6ZCI63jw-9k",
+      "reason": "Expanded imagination quote appends wording absent from checked 1929 interview. Do not date the entire expansion via its shared opening."
+    },
+    {
+      "quoteIds": [
+        "cq-9305df9c813e00d6",
+        "cq-efb94d65479a41dc"
+      ],
+      "reason": "Stars phrase attributed to Charles A. Beard; King’s 1968 speech cannot date different-author records."
+    }
+  ],
+  "limitations": [
+    "Bounded evidence set; remaining records may use the manager’s explicitly estimated fallback.",
+    "Exact source year does not verify every modern wording variant or contested attribution.",
+    "User requested estimate markings on quote cards only; no broader UX implementation is part of this artifact."
+  ],
+  "authorEstimates": [
+    {
+      "authorPattern": "^Zoroaster,?$",
+      "year": -1000,
+      "confidence": "low",
+      "estimated": true,
+      "kind": "author-era-estimate",
+      "basis": "Author-era ESTIMATE, not a verified quotation date. Encyclopaedia Iranica reports that many scholars favor around 1000 BCE, while plausible competing chronologies span the thirteenth to sixth centuries BCE. Use -1000 only as a representative sorting year for the attributed author, not a birth year or exact Gathas composition date.",
+      "sourceUrls": [
+        "https://www.iranicaonline.org/articles/zoroastrianism-i-historical-review/",
+        "https://www.iranicaonline.org/articles/gostasp/"
+      ],
+      "note": "All 10 corpus records cite The Gathas/Yasna. Historical chronology is disputed, and the English translations are much later; neither translation date nor a precise ancient quotation date is established.",
+      "matchCount": 10
+    },
+    {
+      "authorPattern": "^Malachi,?$",
+      "year": -450,
+      "confidence": "low",
+      "estimated": true,
+      "kind": "author-era-estimate",
+      "basis": "Author-era ESTIMATE, not a verified quotation date. The American Bible Society places the book approximately 470–440 BCE; USCCB describes a possible date before, during, or after Nehemiah's first return in 445 BCE and warns that Malachi may be a pseudonym. -450 is a representative fifth-century BCE activity/context year, not a known birth or utterance date.",
+      "sourceUrls": [
+        "https://www.americanbible.org/engage/bible-resources/articles/malachi-intro/",
+        "https://bible.usccb.org/bible/malachi/0"
+      ],
+      "note": "All 10 corpus records explicitly cite Book of Malachi with chapter/verse. The original author may be anonymous. These are English NKJV renderings, not evidence that the English wording existed in antiquity.",
+      "matchCount": 10
+    },
+    {
+      "authorPattern": "^Sarvajna,?$",
+      "year": 1550,
+      "confidence": "low",
+      "estimated": true,
+      "kind": "author-era-estimate",
+      "basis": "Author-era ESTIMATE, not a verified quotation date. The Indira Gandhi National Centre for the Arts cultural-history lecture identifies Sarvajna as a sixteenth-century Kannada poet. 1550 is the representative midpoint of that broad century; no birth/death dates are inferred.",
+      "sourceUrls": [
+        "https://ignca.gov.in/Lectures_PDFs/SKChatterjee/SKChatterjee006.pdf",
+        "https://gsl.lbsnaa.gov.in/opac-tmpl/bootstrap/Books/112878.pdf"
+      ],
+      "note": "All 10 corpus records cite Tripadis (6) or Flowers of Wisdom (4). The older Kannada-literature study on a government academy library site explicitly discusses disputed chronology, manuscript compilation and inauthentic later verses. The estimate does not date individual verses or English translations.",
+      "matchCount": 10
+    },
+    {
+      "authorPattern": "^William\\ Adams,?$",
+      "year": 1768,
+      "confidence": "low",
+      "estimated": true,
+      "kind": "author-era-estimate",
+      "basis": "Author-era ESTIMATE, not a verified quotation date. The corpus-linked Wikiquote page explicitly identifies William Adams as the Pembroke College master. Pembroke's own history gives birth 17 August 1706 and death 13 January 1789. Applying the requested lifespan heuristic gives round(1706 + .75*(1789-1706)) = 1768.",
+      "sourceUrls": [
+        "https://www.pmb.ox.ac.uk/masters",
+        "https://en.wikiquote.org/wiki/William_Adams",
+        "https://www.themorgan.org/printed-books/283813"
+      ],
+      "note": "Identity remains attribution-dependent: all 10 corpus passages come from the 1895 Dictionary of Burning Words, which does not identify an original work in these records. Do not silently switch to the American minister William Adams (1807–1880), sailor, or other namesake. The 1895 anthology is not an original quotation date.",
+      "matchCount": 10
+    },
+    {
+      "authorPattern": "^Roy\\ T\\.\\ Bennett,?$",
+      "year": 2020,
+      "confidence": "low",
+      "estimated": true,
+      "kind": "author-era-estimate",
+      "basis": "Author-activity ESTIMATE, not a verified quotation date or lifespan estimate. Google Books and WorldCat identify Roy T. Bennett as author/self-publisher of The Light in the Heart, paperback ISBN 9780987917768, published 2 February 2020. Use 2020 only as an attested modern author-activity anchor when a numerical fallback is mandatory; no birth/death facts are asserted.",
+      "sourceUrls": [
+        "https://books.google.com/books/about/The_Light_in_the_Heart.html?hl=en&id=fyZOzQEACAAJ&output=html_text",
+        "https://search.worldcat.org/title/1221018343",
+        "https://www.goodreads.com/book/show/29359991-the-light-in-the-heart"
+      ],
+      "note": "All 49 corpus records have only Goodreads community attribution. Goodreads lists a 2016 digital edition, so 2020 is explicitly a later verified catalog activity anchor, not first publication. No checked primary book text matched these 49 records; therefore no verified quoteMappings were added for Roy. Retain estimate labeling on every affected card.",
+      "matchCount": 49
+    },
+    {
+      "id": "rumi-name-variant-era",
+      "authorPattern": "^Mawlana Jalal-al-Din Rumi$",
+      "year": 1256,
+      "confidence": "low",
+      "estimated": true,
+      "sourceUrls": [
+        "https://poets.org/poet/jalal-al-din-rumi",
+        "https://www.loc.gov/resource/gdcwdl.wdl_04074/?sp=1&st=slideshow"
+      ],
+      "basis": "Name variant of Rumi (1207–1273); estimate at75%of the attributed author lifespan.",
+      "note": "Does not authenticate modern English wording or date its translation."
+    },
+    {
+      "id": "dhammapada-compilation-era",
+      "authorPattern": "^Dhammapada$",
+      "year": -250,
+      "confidence": "low",
+      "estimated": true,
+      "sourceUrls": [
+        "https://www.discoveringbuddha.org/wp-content/uploads/2024/04/CHRONOLOGY-OF-THE-PALI-CANON-by-BC-Law-1931.pdf",
+        "https://accesstoinsight.org/tipitaka/kn/dhp/dhp.intro.than"
+      ],
+      "basis": "Broad third-century-BCE compilation-era estimate for the attributed anthology, using the midpoint of that century.",
+      "note": "The history of the text and its recensions is uncertain; not an authenticated composition date for each verse or the English translation."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "authors": 19016,
+    "identified": 18909,
+    "withBirth": 18538,
+    "withDeath": 10544,
+    "withActivity": 4868,
+    "missing": 107,
+    "ambiguous": 0
+  },
+  "at": "2026-10-27T01:13:49.633Z",
+  "requests": "Sequential public MediaWiki pageprops and Wikidata SPARQL; exact page-title matches, no fuzzy name inference.",
+  "sources": [
+    "https://www.mediawiki.org/wiki/API:Etiquette",
+    "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "https://www.wikidata.org/wiki/Property:P569",
+    "https://www.wikidata.org/wiki/Property:P570"
+  ]
+}

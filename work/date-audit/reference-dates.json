@@ -1,0 +1,934 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-26",
+  "inventoryTotal": 102444,
+  "matchingRules": {
+    "regexFlags": "case-insensitive",
+    "matchFields": [
+      "source",
+      "provenance.descriptions"
+    ],
+    "authorAndWorkRequired": true,
+    "neverMatchQuoteText": true,
+    "neverInferFromAuthorLifetime": true,
+    "priority": "Preserve existing seven q.year values. Reviewed rules override conflicting source-title dates. Blocked contexts never receive reviewed original dates.",
+    "citationOnly": "Work titles found only in citations require manual review; do not blindly match all historical mentions.",
+    "dateMeaning": "Bounds date the work, textual formation, or first performance, not necessarily a first utterance or modern English wording. Negative values mean BCE; no year zero. Uncertainty labels are mandatory.",
+    "multipleMatches": "Retain unknown if conflicting work matches remain.",
+    "representedSpeakers": "An attributed speaker can differ from the work author. Explicit Plato dialogue contexts under Socrates are supported; never infer a work from a speaker lifetime."
+  },
+  "mappings": [
+    {
+      "id": "ptahhotep-maxims",
+      "authorPattern": "^Ptahhotep$",
+      "workPattern": "\\b(?:Maxims|Teaching|Instructions?) of Ptahhotep\\b",
+      "startYear": -2000,
+      "endYear": -1800,
+      "approximate": true,
+      "label": "c. 2000–1800 BCE (Middle Kingdom composition)",
+      "basis": "UCL assigns composition to Dynasty 12; rounded Met chronology distinguishes this from the fictional Old Kingdom setting.",
+      "sourceUrls": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/ptahhotep.html",
+        "https://www.metmuseum.org/art/collection/search/556633"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "note": "Override source title c. 2350 BC. Rounded dynasty envelope c. 2000–1800 BCE is not an exact scholarly composition bound.",
+      "matchCount": 10,
+      "sampleIds": [
+        "cq-b78c9ebd3b730111",
+        "cq-b952a2c4da3d77ec",
+        "cq-585511f20ecf55c1"
+      ],
+      "observedContexts": [
+        "The Maxims of Ptahhotep (c. 2350 BC)"
+      ]
+    },
+    {
+      "id": "enheduanna-hymn-inana",
+      "authorPattern": "^Enheduan{1,2}a$",
+      "workPattern": "\\bHymn to Inan{1,2}a\\b",
+      "startYear": -2300,
+      "endYear": -1700,
+      "approximate": true,
+      "label": "23rd–18th century BCE (disputed)",
+      "basis": "Helle allows Old Akkadian authorship or later composition; most manuscripts are eighteenth-century. Bounds are an uncertainty envelope, not a lifetime date.",
+      "sourceUrls": [
+        "https://enheduana.org/authorship/",
+        "https://enheduana.org/the-hymn-to-inana/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "note": "Traditional twenty-third-century attribution versus eighteenth-century witnesses; disputed authorship. Do not label 2300 BCE independently established.",
+      "matchCount": 6,
+      "sampleIds": [
+        "cq-d40112daec92d16c",
+        "cq-86f534cb8593d05f",
+        "cq-3529147904d546c9"
+      ],
+      "observedContexts": [
+        "A Hymn to Inana (23rd century BCE)"
+      ]
+    },
+    {
+      "id": "hesiod-works-days",
+      "authorPattern": "^Hesiod$",
+      "workPattern": "\\bWorks and Days\\b",
+      "startYear": -700,
+      "endYear": -700,
+      "approximate": true,
+      "label": "c. 700 BCE",
+      "basis": "Cambridge classical-source chronology dates Works and Days approximately 700 BCE.",
+      "sourceUrls": [
+        "https://assets.cambridge.org/97805214/12629/frontmatter/9780521412629_frontmatter.pdf"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "work-composition",
+      "matchCount": 9,
+      "sampleIds": [
+        "cq-e908ab1c4c99bec8",
+        "cq-90a186cbeb5e04d4",
+        "cq-ee2fa8c70b55aee2"
+      ],
+      "observedContexts": [
+        "Works and Days (c. 700 BC)"
+      ]
+    },
+    {
+      "id": "homer-iliad",
+      "authorPattern": "^Homer$",
+      "workPattern": "\\bIliad\\b",
+      "startYear": -800,
+      "endYear": -650,
+      "approximate": true,
+      "label": "c. 800–650 BCE",
+      "basis": "Chicago Library gives eighth to mid-seventh century composition, allowing earlier traditions; writing-down and manuscript dates differ.",
+      "sourceUrls": [
+        "https://www.lib.uchicago.edu/collex/exhibits/homer-print-transmission-and-reception-homers-works/homer-print/"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "work-composition",
+      "note": "Lower bound is conventional, not a proven earliest oral origin. Translations-only contexts cannot receive this date.",
+      "matchCount": 2,
+      "sampleIds": [
+        "cq-9fa3d7de7e222cbf",
+        "cq-114847872c5387eb"
+      ],
+      "observedContexts": [
+        ";Book I; ;Book II; ;Book III; ;Book IV; ;Book IX; ;Book V; ;Book VI; ;Book VII; ;Book VIII; ;Book X; ;Book XI; ;Book XII; ;Book XIII; ;Book XIV; ;Book XV; ;Book XVI; Iliad (c. 750 BC)",
+        "Iliad (c. 750 BC)"
+      ]
+    },
+    {
+      "id": "marcus-meditations",
+      "authorPattern": "^Marcus Aurelius$",
+      "workPattern": "\\bMeditations\\b",
+      "startYear": 171,
+      "endYear": 175,
+      "approximate": true,
+      "label": "c. 171–175 CE",
+      "basis": "IEP dates the campaign notebook probably 171–175 CE; Book I may be separate.",
+      "sourceUrls": [
+        "https://iep.utm.edu/marcus-aurelius/"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "work-composition",
+      "note": "Override source c. AD 121–180, the author lifetime. Exact notebook chronology remains uncertain.",
+      "matchCount": 11,
+      "sampleIds": [
+        "cq-1930287bf8453652",
+        "cq-d1be48fa3ca0f487",
+        "cq-bdb7684cfa8c7135"
+      ],
+      "observedContexts": [
+        "Book I; Meditations (c. AD 121–180)",
+        "Meditations (c. AD 121–180)"
+      ]
+    },
+    {
+      "id": "epictetus-discourses",
+      "authorPattern": "^Epictetus$",
+      "workPattern": "\\bDiscourses\\b",
+      "startYear": 108,
+      "endYear": 108,
+      "approximate": true,
+      "label": "c. 108 CE (teaching recorded by Arrian)",
+      "basis": "SEP places the represented teaching around 108 CE; Arrian records it. This is not an exact publication date.",
+      "sourceUrls": [
+        "https://plato.stanford.edu/archives/sum2026/entries/epictetus/"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "work-composition",
+      "note": "Ancient recorded teaching; do not extend to Golden Sayings or generic community quotes.",
+      "matchCount": 3,
+      "sampleIds": [
+        "cq-1874d50d6990c719",
+        "cq-b3cfa22c7c411fea",
+        "cq-996f4cab73c4d379"
+      ],
+      "observedContexts": [
+        "Discourses"
+      ]
+    },
+    {
+      "id": "epictetus-enchiridion",
+      "authorPattern": "^Epictetus$",
+      "workPattern": "\\b(?:Enchiridion|Encheiridion|Encheirdion)\\b",
+      "startYear": 135,
+      "endYear": 135,
+      "approximate": true,
+      "label": "c. 135 CE (ancient handbook)",
+      "basis": "MIT conventionally gives 135 CE; SEP identifies Arrian’s abridgment of the Discourses.",
+      "sourceUrls": [
+        "https://classics.mit.edu/Epictetus/epicench.html",
+        "https://plato.stanford.edu/archives/sum2026/entries/epictetus/"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "work-composition",
+      "note": "Approximate archive convention, not securely dated publication; modern Crossley anthology is distinct.",
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-511efa1918aa9da4"
+      ],
+      "observedContexts": [
+        "The Enchiridion (c. 135)"
+      ]
+    },
+    {
+      "id": "confucian-mean-greatlearning",
+      "authorPattern": "^Confucius$",
+      "workPattern": "\\b(?:Doctrine of the Mean|Great Learning)\\b",
+      "startYear": -300,
+      "endYear": -101,
+      "approximate": true,
+      "label": "3rd–2nd century BCE (posthumous compilation)",
+      "basis": "Eno argues anonymous texts reflecting third-century thought, plausibly Qin or early Han; broad century bounds avoid false precision.",
+      "sourceUrls": [
+        "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/84e59243-b0aa-4318-ac30-adc0454cf6a3/content"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "note": "Anonymous later compilations; preserving attribution does not confirm Confucius wrote these works. Individual sayings may be earlier.",
+      "matchCount": 6,
+      "sampleIds": [
+        "cq-53409c82a7e1589e",
+        "cq-c7a1c747735e7c4b",
+        "cq-292f85a751d984bc"
+      ],
+      "observedContexts": [
+        "The Doctrine of the Mean",
+        "The Great Learning"
+      ]
+    },
+    {
+      "id": "laozi-taoteching",
+      "authorPattern": "^(?:Laozi|Lao Tzu)$",
+      "workPattern": "\\b(?:Tao Te Ching|Dao De Jing|Daodejing)\\b",
+      "startYear": -450,
+      "endYear": -250,
+      "approximate": true,
+      "label": "c. 450–250 BCE (text formation)",
+      "basis": "SEP describes writing from the later fifth century, fourth-century consolidation, relative stability by mid-third century BCE.",
+      "sourceUrls": [
+        "https://plato.stanford.edu/archives/spr2024/entries/laozi/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "note": "Text formation, not traditional Laozi lifetime. English translations and paraphrases have separate dates.",
+      "matchCount": 5,
+      "sampleIds": [
+        "cq-3a1fcc1b62650243",
+        "cq-affa2320e9edc912",
+        "cq-68a458b23cc01223"
+      ],
+      "observedContexts": [
+        "Tao Te Ching"
+      ]
+    },
+    {
+      "id": "plato-middle",
+      "authorPattern": "^Plato$",
+      "workPattern": "\\b(?:Republic|Symposium)\\b",
+      "startYear": -380,
+      "endYear": -360,
+      "approximate": true,
+      "label": "c. 380–360 BCE",
+      "basis": "IEP groups Republic II–X and Symposium here; chronology remains reconstructed.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "note": "Observed Republic citation 586a–b is Book IX. Republic Book I belongs to an earlier group if encountered later.",
+      "matchCount": 2,
+      "sampleIds": [
+        "cq-ab46028992c6fecb",
+        "cq-104225aefe8c38e1"
+      ],
+      "observedContexts": [
+        "The Symposium",
+        "The Republic"
+      ]
+    },
+    {
+      "id": "plato-late-transitional",
+      "authorPattern": "^Plato$",
+      "workPattern": "\\b(?:Parmenides|Phaedrus)\\b",
+      "startYear": -360,
+      "endYear": -355,
+      "approximate": true,
+      "label": "c. 360–355 BCE (proposed chronology)",
+      "basis": "IEP proposes this late-transitional group; not scholarly consensus.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "matchCount": 2,
+      "sampleIds": [
+        "cq-69eed2dd7a15392d",
+        "cq-6c343a617b1d8a1f"
+      ],
+      "observedContexts": [
+        "Parmenides",
+        "Phaedrus"
+      ]
+    },
+    {
+      "id": "plato-theaetetus",
+      "authorPattern": "^Plato$",
+      "workPattern": "\\bTheaetetus\\b",
+      "startYear": -369,
+      "endYear": -355,
+      "approximate": true,
+      "label": "c. 369–355 BCE",
+      "basis": "Dedicated IEP entry suggests shortly after 369–367; general IEP chronology gives 360–355. Envelope retains disagreement.",
+      "sourceUrls": [
+        "https://iep.utm.edu/theatetu/",
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "matchCount": 2,
+      "sampleIds": [
+        "cq-db91536902576c93",
+        "cq-0066c876e36d3e7d"
+      ],
+      "observedContexts": [
+        "Theaetetus"
+      ]
+    },
+    {
+      "id": "plato-timaeus",
+      "authorPattern": "^Plato$",
+      "workPattern": "\\bTimaeus\\b",
+      "startYear": -355,
+      "endYear": -347,
+      "approximate": true,
+      "label": "c. 355–347 BCE (proposed chronology)",
+      "basis": "IEP places Timaeus among late dialogues in this proposed group.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "note": "Cited 1888 Archer-Hind edition is not ancient composition.",
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-64ad4782d0554c01"
+      ],
+      "observedContexts": [
+        "Timaeus"
+      ]
+    },
+    {
+      "id": "plato-protagoras",
+      "authorPattern": "^Plato$",
+      "workPattern": "\\bProtagoras\\b",
+      "startYear": -399,
+      "endYear": -387,
+      "approximate": true,
+      "label": "c. 399–387 BCE",
+      "basis": "IEP places this after Socrates’s death and before Plato’s 387 BCE Sicily trip.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-150635d5a2a2e110"
+      ],
+      "observedContexts": [
+        "Protagoras"
+      ]
+    },
+    {
+      "id": "aristotle-nicomachean",
+      "authorPattern": "^Aristotle$",
+      "workPattern": "\\bNicomachean Ethics\\b",
+      "startYear": -350,
+      "endYear": -330,
+      "approximate": true,
+      "label": "c. 350–330 BCE",
+      "basis": "Notre Dame gives c. 350; Cambridge list uses c. 330 BCE. Range retains variation.",
+      "sourceUrls": [
+        "https://godandgoodlife.nd.edu/resource/learn-to-live-well-aristotle/",
+        "https://assets.cambridge.org/97811084/88846/frontmatter/9781108488846_frontmatter.pdf"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-94c62408514d6684"
+      ],
+      "observedContexts": [
+        "Nicomachean Ethics"
+      ]
+    },
+    {
+      "id": "aristotle-politics",
+      "authorPattern": "^Aristotle$",
+      "workPattern": "\\bPolitics\\b",
+      "startYear": -350,
+      "endYear": -350,
+      "approximate": true,
+      "label": "c. 350 BCE",
+      "basis": "Routledge bibliography says mid-fourth century; MIT conventionally gives 350 BCE.",
+      "sourceUrls": [
+        "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9781138936485/instr_biographies/aristotle.pdf",
+        "https://classics.mit.edu/Aristotle/politics.html"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "work-composition",
+      "note": "Approximate convention for a layered treatise, not a securely dated single publication.",
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-370b556135306633"
+      ],
+      "observedContexts": [
+        "Politics"
+      ]
+    },
+    {
+      "id": "aeschylus-oresteia",
+      "authorPattern": "^Aeschylus$",
+      "workPattern": "\\b(?:Oresteia|Agamemnon|Libation Bearers|Eumenides)\\b",
+      "startYear": -458,
+      "endYear": -458,
+      "approximate": false,
+      "label": "458 BCE (first performance)",
+      "basis": "Cambridge chronology records the trilogy’s production and first prize in 458 BCE.",
+      "sourceUrls": [
+        "https://assets.cambridge.org/97805215/39814/frontmatter/9780521539814_frontmatter.pdf"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-performance",
+      "matchCount": 5,
+      "sampleIds": [
+        "cq-f11637202fce5900",
+        "cq-a95289762302f86d",
+        "cq-886d92d990a55972"
+      ],
+      "observedContexts": [
+        "Oresteia (458 BC); The Libation Bearers",
+        "Oresteia (458 BC)"
+      ]
+    },
+    {
+      "id": "aristophanes-birds",
+      "authorPattern": "^Aristophanes$",
+      "workPattern": "\\bBirds\\b",
+      "startYear": -414,
+      "endYear": -414,
+      "approximate": false,
+      "label": "414 BCE (first performance)",
+      "basis": "Johnston’s university-hosted historical note gives first production in 414 BCE.",
+      "sourceUrls": [
+        "https://web.viu.ca/johnstoi/aristophanes/birds.htm"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-performance",
+      "matchCount": 4,
+      "sampleIds": [
+        "cq-56c277bc985663c6",
+        "cq-643928fe67269ef4",
+        "cq-924e211ee4b6dcca"
+      ],
+      "observedContexts": [
+        "Birds (414 BC)"
+      ]
+    },
+    {
+      "id": "aristophanes-clouds",
+      "authorPattern": "^Aristophanes$",
+      "workPattern": "\\bClouds\\b",
+      "startYear": -423,
+      "endYear": -423,
+      "approximate": false,
+      "label": "423 BCE (first performance; text revised later)",
+      "basis": "Johnston dates first production to 423 BCE; surviving text is an unfinished later revision.",
+      "sourceUrls": [
+        "https://web.viu.ca/johnstoi/aristophanes/clouds.htm"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-performance",
+      "note": "423 BCE dates initial production, not every surviving line or the later revision.",
+      "matchCount": 2,
+      "sampleIds": [
+        "cq-79aa7b8a2374db63",
+        "cq-e0fd95f74c4c9810"
+      ],
+      "observedContexts": [
+        "Clouds (423 BC)"
+      ]
+    },
+    {
+      "id": "darwin-origin",
+      "authorPattern": "^Charles Darwin$",
+      "workPattern": "\\bOrigin of Species\\b",
+      "startYear": 1859,
+      "endYear": 1859,
+      "approximate": false,
+      "label": "1859 (first publication)",
+      "basis": "Freeman’s bibliography identifies the 1859 first edition and 24 November publication.",
+      "sourceUrls": [
+        "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-publication",
+      "matchCount": 4,
+      "sampleIds": [
+        "press-darwin-0",
+        "cq-6809cff331db9341",
+        "cq-cd7facc4c5ca9b5c"
+      ],
+      "observedContexts": [
+        "On the Origin of Species, first edition",
+        "On the Origin of Species (1859)"
+      ]
+    },
+    {
+      "id": "emerson-self-reliance",
+      "authorPattern": "^Ralph Waldo Emerson$",
+      "workPattern": "\\bSelf[- ]Reliance\\b",
+      "startYear": 1841,
+      "endYear": 1841,
+      "approximate": false,
+      "label": "1841 (first publication)",
+      "basis": "Harvard’s primary-reading chronology identifies Self-Reliance (1841).",
+      "sourceUrls": [
+        "https://english.fas.harvard.edu/resource/sthetranscendentalistsandtheirlegacygeoffreykirschpdf"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-publication",
+      "matchCount": 5,
+      "sampleIds": [
+        "press-emerson-0",
+        "press-emerson-1",
+        "press-emerson-2"
+      ],
+      "observedContexts": [
+        "Essays: First Series, Self-Reliance"
+      ]
+    },
+    {
+      "id": "hobbes-leviathan",
+      "authorPattern": "^Thomas Hobbes$",
+      "workPattern": "\\bLeviathan\\b",
+      "startYear": 1651,
+      "endYear": 1651,
+      "approximate": false,
+      "label": "1651 (first publication)",
+      "basis": "British Library preserves the 1651 witness and identifies the 1651 printed edition.",
+      "sourceUrls": [
+        "https://searcharchives.bl.uk/catalog/040-001982826"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-publication",
+      "matchCount": 12,
+      "sampleIds": [
+        "press-hobbes-0",
+        "cq-ea91b1ce9e5dd0cb",
+        "cq-003429d756a038c7"
+      ],
+      "observedContexts": [
+        "Leviathan",
+        "Leviathan (1651)"
+      ]
+    },
+    {
+      "id": "bentley-trent",
+      "authorPattern": "^(?:Edmund Clerihew Bentley|E\\.? C\\.? Bentley)$",
+      "workPattern": "\\bTrent[’']s Last Case\\b",
+      "startYear": 1913,
+      "endYear": 1913,
+      "approximate": false,
+      "label": "1913 (first publication; source date corrected)",
+      "basis": "AFI explicitly identifies the 1913 novel; corpus title date 1912 is erroneous.",
+      "sourceUrls": [
+        "https://catalog.afi.com/Film/51447-TRENT%27S-LAST-CASE"
+      ],
+      "reviewed": true,
+      "disputed": false,
+      "dateType": "first-publication",
+      "note": "Manual erratum: source year 1912 must not be promoted unchanged.",
+      "matchCount": 4,
+      "sampleIds": [
+        "cq-0bbd30ec39fa5061",
+        "cq-724d5bf8547cb965",
+        "cq-b9bc61e59b3be65d"
+      ],
+      "observedContexts": [
+        "Trent's Last Case (1912)"
+      ]
+    },
+    {
+      "id": "plato-phaedo-socratic-speaker",
+      "authorPattern": "^(?:Socrates|Plato)$",
+      "workPattern": "\\bPhaedo\\b",
+      "startYear": -380,
+      "endYear": -360,
+      "approximate": true,
+      "label": "c. 380–360 BCE (Plato’s Phaedo composition)",
+      "basis": "IEP places Phaedo in its proposed middle-period composition group. Socrates is the represented speaker, not the work’s writer.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "workAuthor": "Plato",
+      "note": "Dates composition of Plato’s dialogue, not its dramatic setting at Socrates’s death in 399 BCE. Retain the record’s existing speaker attribution.",
+      "matchCount": 7,
+      "sampleIds": [
+        "cq-dd013f3834d60009",
+        "cq-3706ef816f26161b",
+        "cq-f99e0172946c6297"
+      ],
+      "observedContexts": [
+        "Phaedo; Plato",
+        "Phaedo"
+      ]
+    },
+    {
+      "id": "plato-apology-socratic-speaker",
+      "authorPattern": "^(?:Socrates|Plato)$",
+      "workPattern": "\\bApology\\s*;\\s*Plato\\b",
+      "startYear": -399,
+      "endYear": -387,
+      "approximate": true,
+      "label": "c. 399–387 BCE (Plato’s Apology composition)",
+      "basis": "IEP places Plato’s Apology among early dialogues composed after Socrates’s death and before the 387 BCE Sicily trip.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "reviewed": true,
+      "disputed": true,
+      "dateType": "work-composition",
+      "workAuthor": "Plato",
+      "note": "399 BCE is the trial/dramatic setting, not an asserted exact composition year. Require explicit Plato context to distinguish Xenophon’s Apology.",
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-c2376ccc20b67af3"
+      ],
+      "observedContexts": [
+        "Apology; Plato"
+      ]
+    }
+  ],
+  "blockedContexts": [
+    {
+      "id": "epictetus-golden-sayings",
+      "authorPattern": "^Epictetus$",
+      "workPattern": "\\bGolden Sayings\\b",
+      "label": "Original date unresolved; modern anthology",
+      "basis": "Crossley’s translated and arranged anthology has a 1903 edition; title alone does not identify a dated ancient passage.",
+      "sourceUrls": [
+        "https://ci.nii.ac.jp/ncid/BA28603924",
+        "https://onlinebooks.library.upenn.edu/webbin/who/Epictetus",
+        "https://plato.stanford.edu/archives/sum2026/entries/epictetus/"
+      ],
+      "editionYear": 1903,
+      "action": "Do not apply Discourses/Enchiridion work dates without ancient passage identification. 1903 may be compilation/source context only.",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "matchCount": 5,
+      "sampleIds": [
+        "cq-bd6622854c88a6d2",
+        "cq-1b2e4b321cc67596",
+        "cq-2f52e560762750f1"
+      ],
+      "observedContexts": [
+        "Golden Sayings of Epictetus",
+        "Fragments; Golden Sayings of Epictetus"
+      ],
+      "reviewed": false,
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ]
+    },
+    {
+      "id": "plato-alcibiades",
+      "authorPattern": "^Plato$",
+      "workPattern": "\\bAlcibiades I\\b",
+      "label": "Composition date unresolved; attribution disputed",
+      "basis": "No independent composition date established in this finite audit.",
+      "sourceUrls": [
+        "https://iep.utm.edu/plato/"
+      ],
+      "action": "Remain unknown.",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-3ff09305c667d598"
+      ],
+      "observedContexts": [
+        "Alcibiades I"
+      ],
+      "reviewed": false,
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ]
+    },
+    {
+      "id": "hesiod-catalogue",
+      "authorPattern": "^Hesiod$",
+      "workPattern": "\\bCatalogues? of Women|\\bEoiae\\b",
+      "label": "Different Hesiodic work; date unresolved",
+      "basis": "Works and Days dating does not date the Catalogue of Women.",
+      "sourceUrls": [
+        "https://assets.cambridge.org/97805214/12629/frontmatter/9780521412629_frontmatter.pdf"
+      ],
+      "action": "Remain unknown; do not use modern Loeb edition date.",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "matchCount": 1,
+      "sampleIds": [
+        "cq-2ed8dbfe3d88dd02"
+      ],
+      "observedContexts": [
+        "Catalogue of Women or Eoiae",
+        "Catalogues of Women and Eoiae 3 (Loeb, H.G. Evelyn-White)."
+      ],
+      "reviewed": false,
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ]
+    },
+    {
+      "id": "unreviewed-sumerian-contexts",
+      "authorPattern": "^(?:Lugalbanda|Enmerkar|Shu-Sin)$",
+      "workPattern": "\\b(?:Lugalbanda|Enmerkar|Shu-Suen|Sharrum-bani)\\b",
+      "label": "Ancient source context not independently reviewed",
+      "basis": "Corpus mixes Ur III / twenty-first-century settings and Old Babylonian witnesses; no independent composition dates established here.",
+      "sourceUrls": [
+        "https://etcsl.orinst.ox.ac.uk/"
+      ],
+      "action": "Explicit dates may be source-context evidence only, never reviewed work dates.",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "matchCount": 14,
+      "sampleIds": [
+        "cq-48e2ee9a2a4c33b5",
+        "cq-546d5ff5b403e5aa",
+        "cq-ecad69e074c9330e"
+      ],
+      "observedContexts": [
+        "In Lugalbanda in the Mountain Cave, Ur III Period (21st century BCE).",
+        "To his general Sharrum-bani, Letter from Shu-Suen to Sharrum-bani about digging a trench, Correspondence of the Kings of Ur, Old Babylonian period, ca. 1800-1600 BCE, at."
+      ],
+      "reviewed": false,
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ]
+    },
+    {
+      "id": "other-aristotle",
+      "authorPattern": "^Aristotle$",
+      "workPattern": "\\b(?:Physics|Rhetoric|Parts of Animals)\\b",
+      "label": "Identified work; date unresolved here",
+      "basis": "MIT uniformly dates nearly all Aristotle works 350 BCE; do not treat that as precise independent chronology.",
+      "sourceUrls": [
+        "https://classics.mit.edu/Browse/browse-Aristotle.html"
+      ],
+      "action": "Remain unknown in this finite phase.",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "matchCount": 3,
+      "sampleIds": [
+        "cq-08832f9383217154",
+        "cq-b83a9eaf67826c8d",
+        "cq-09c2aecf4909aca2"
+      ],
+      "observedContexts": [
+        "Physics",
+        "Rhetoric"
+      ],
+      "reviewed": false,
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ]
+    },
+    {
+      "id": "amenemope",
+      "authorPattern": "^Amenemope \\(author\\)$",
+      "workPattern": "\\bInstruction of Amenemope\\b",
+      "label": "Identified Egyptian work; composition date unresolved here",
+      "basis": "Ramesside attribution and later manuscripts require work-specific dating evidence.",
+      "sourceUrls": [
+        "https://australian.museum/learn/teachers/history-learning-resources/secondary-ramesside-period/"
+      ],
+      "action": "Remain unknown pending composition/attestation review.",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "matchCount": 4,
+      "sampleIds": [
+        "cq-6bc03f396ac5fae8",
+        "cq-3591d3e5201945d5",
+        "cq-51a287c828fbedb6"
+      ],
+      "observedContexts": [
+        "The Instruction of Amenemope"
+      ],
+      "reviewed": false,
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ]
+    },
+    {
+      "id": "leonardo-notebooks-1883",
+      "authorPattern": "^Leonardo da Vinci$",
+      "workPattern": "\\bNotebooks of Leonardo da Vinci\\b",
+      "startYear": null,
+      "endYear": null,
+      "approximate": false,
+      "reviewed": false,
+      "label": "Original notebook dates unresolved; posthumous English compilation",
+      "basis": "Richter transliterated and translated the notes in 1883; that is not their Renaissance composition date.",
+      "sourceUrls": [
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1684AB663DC8BEC2863257E5BFE36118/S0025727300029835a.pdf/div-class-title-leonardo-da-vinci-s-influence-on-renaissance-anatomy-div.pdf"
+      ],
+      "editionYear": 1883,
+      "action": "1883 may be labelled edition/source-context date only. Do not substitute Leonardo’s lifetime as a work date.",
+      "matchFields": [
+        "source",
+        "provenance.descriptions",
+        "provenance.citations"
+      ],
+      "matchCount": 11,
+      "sampleIds": [
+        "cq-bf4128fe4b1bb864",
+        "cq-40159772ce1e7522",
+        "cq-b14b5287a86b3db5"
+      ],
+      "observedContexts": [
+        "The Notebooks of Leonardo da Vinci (1883); XX Humorous Writings",
+        "The Notebooks of Leonardo da Vinci (1883)"
+      ]
+    }
+  ],
+  "confirmedExisting": [
+    {
+      "id": "press-darwin-0",
+      "author": "Charles Darwin",
+      "year": 1859,
+      "source": "On the Origin of Species, first edition",
+      "preserveYear": true
+    },
+    {
+      "id": "press-emerson-0",
+      "author": "Ralph Waldo Emerson",
+      "year": 1841,
+      "source": "Essays: First Series, Self-Reliance",
+      "preserveYear": true
+    },
+    {
+      "id": "press-emerson-1",
+      "author": "Ralph Waldo Emerson",
+      "year": 1841,
+      "source": "Essays: First Series, Self-Reliance",
+      "preserveYear": true
+    },
+    {
+      "id": "press-emerson-2",
+      "author": "Ralph Waldo Emerson",
+      "year": 1841,
+      "source": "Essays: First Series, Self-Reliance",
+      "preserveYear": true
+    },
+    {
+      "id": "press-emerson-3",
+      "author": "Ralph Waldo Emerson",
+      "year": 1841,
+      "source": "Essays: First Series, Self-Reliance",
+      "preserveYear": true
+    },
+    {
+      "id": "press-emerson-4",
+      "author": "Ralph Waldo Emerson",
+      "year": 1841,
+      "source": "Essays: First Series, Self-Reliance",
+      "preserveYear": true
+    },
+    {
+      "id": "press-hobbes-0",
+      "author": "Thomas Hobbes",
+      "year": 1651,
+      "source": "Leviathan",
+      "preserveYear": true
+    }
+  ],
+  "absentRequestedWorks": [
+    "Hesiod: Theogony",
+    "Homer: Odyssey",
+    "Aristotle: Poetics",
+    "Confucius: Analects"
+  ],
+  "limitations": [
+    "Finite work-reference set, not complete chronology for 102444 quotations.",
+    "Generic community attributions remain unknown, including ancient authors.",
+    "Modern translation and edition dates remain separate from ancient work dates."
+  ]
+}

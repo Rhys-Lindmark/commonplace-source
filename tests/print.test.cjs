@@ -1,0 +1,17 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+for(const file of ['dates.js','cover.js','print.js','pdf.js'])vm.runInThisContext(fs.readFileSync('dist/'+file,'utf8'));
+global.jspdf={jsPDF:require('../dist/vendor/jspdf.umd.min.js').jsPDF};
+const P=CommonplacePrint;
+assert.equal(P.readiness(0).ready,false);assert.equal(P.readiness(28).ready,false);assert.ok(P.readiness(28).message.includes('1 more quote'));
+assert.equal(P.readiness(29).pages,32);assert.equal(P.readiness(29).ready,true);assert.equal(P.readiness(798).ready,true);assert.equal(P.readiness(799).ready,false);
+assert.ok(Math.abs(P.spineWidth(444)-1.06)<1e-9);
+const quotes=JSON.parse(fs.readFileSync('dist/quotes.json')).slice(0,30),font={primary:fs.readFileSync('dist/assets/book-serif.ttf').toString('base64'),fallback:fs.readFileSync('dist/assets/book-fallback.ttf').toString('base64')};
+const book={title:'A Book Worth Keeping',author:'A Reader',theme:'forest',titleFont:'serif',format:'5x8',sources:true,printProfile:'lulu'};
+const interior=CommonplacePDF.generate('interior',book,quotes,font),cover=CommonplacePDF.generate('cover',book,quotes,font);
+assert.equal(interior.getNumberOfPages(),32);assert.equal(interior.internal.pageSize.getWidth(),360);assert.ok(interior.__printGrayscale);
+assert.ok(Math.abs(cover.internal.pageSize.getWidth()-(738+P.spineWidth(32)*72))<.01);
+const instructions=P.instructions(book,32);assert.ok(instructions.includes('Print Copies for Your Own Use'));assert.ok(instructions.includes('01-interior.pdf'));assert.ok(instructions.includes('02-cover.pdf'));
+fs.writeFileSync('/tmp/commonplace-print-test.zip',P.zip([{name:'01-interior.pdf',data:new Uint8Array(interior.output('arraybuffer'))},{name:'02-cover.pdf',data:new Uint8Array(cover.output('arraybuffer'))},{name:'START-HERE.txt',data:instructions}]));
+assert.throws(()=>P.zip([{name:'../unsafe.pdf',data:new Uint8Array()}]),/Invalid/);
+console.log('PASS: print minimum/maximum without padding, matching Lulu spine/cover dimensions, grayscale interior, guide content and safe ZIP filenames.');
