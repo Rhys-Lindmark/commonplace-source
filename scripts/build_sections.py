@@ -24,6 +24,9 @@ def build_sections():
     manifest = json.loads(manifest_path.read_text())
     rules_path = ROOT / 'work/topic-sections/rules.json'
     rules = json.loads(rules_path.read_text())
+    related_source = (ROOT / 'data-insight-timer-related.json').read_bytes()
+    related_ids = json.loads(related_source)
+    related_ordinals = dict.fromkeys(related_ids)
     oversized = {t['name']: t['count'] for t in manifest['topics'] if t['count'] > LIMIT}
     buckets = {name: collections.defaultdict(list) for name in oversized}
     compiled = {name: [(r['name'], re.compile(r'\b(?:' + r['pattern'] + r')\b', re.I)) for r in rules.get(name, [])] for name in oversized}
@@ -33,6 +36,8 @@ def build_sections():
         raw = file.read_bytes()
         original.update(file.name.encode() + raw)
         for quote in json.loads(raw):
+            if quote['id'] in related_ordinals:
+                related_ordinals[quote['id']] = ordinal
             for parent in quote['topics']:
                 if parent not in buckets:
                     continue
@@ -90,9 +95,11 @@ def build_sections():
     manifest['sectionLimit'] = LIMIT
     insight_timer = (ROOT / 'data-insight-timer.json').read_bytes()
     manifest['insightTimer'] = json.loads(insight_timer)
+    manifest['insightTimerRelated'] = [n for n in related_ordinals.values() if n is not None]
     digest = hashlib.sha256((data / manifest['catalog']).read_bytes() + rules_path.read_bytes())
     digest.update(str(manifest.get('dateAuditId', '')).encode())
     digest.update(insight_timer)
+    digest.update(related_source)
     for path, raw in sorted(files.items()):
         digest.update(path.encode() + raw)
     manifest['release'] = digest.hexdigest()[:16]

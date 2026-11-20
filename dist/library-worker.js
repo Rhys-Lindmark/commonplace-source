@@ -11,6 +11,7 @@
   function createEngine({ manifest, base, fetch: fetcher = scope.fetch.bind(scope) }) {
     const dictionaries = new LRU(8), pending = new Map(), prefixSet = new Set(manifest.searchPrefixes || []);
     const insightTimer = new Map((manifest.insightTimer || []).map(record => [record.id, record]));
+    const relatedRanks = new Map((manifest.insightTimerRelated || []).map((ordinal, rank) => [ordinal, rank]));
     const sectionDefinitions = new Map((manifest.browseGroups || []).flatMap(g => g.sections.map(s => [s.id, { ...s, topic: g.topic }]))), sectionCache = new LRU(8), sectionPending = new Map();
     async function sectionMembers(section) {
       const cached = sectionCache.get(section.id); if (cached) return cached;
@@ -63,34 +64,40 @@
       if (sectionActive && (topicIndex < 0 || topicIndex >= 64 || (!onlyCustom && !onlyLibrary && !onlyInsightTimer && (!section || section.topic !== topic)) || onlyLibrary && (manifest.topics[topicIndex].count || 0) > (manifest.sectionLimit || 10000))) return { total: 0, page: 1, refs: [] };
       const membership = section && section.topic === topic ? await sectionMembers(section) : null;
       const maxAge = options.age === 'all' || options.age == null ? Infinity : Number(options.age), collection = options.collection || 'all';
+      const showInsightTimer = collection === 'insight-timer';
       const favorites = new Set((options.favorites || []).map(canonical)), ratings = new Map(), rows = [];
       if (Object.keys(options.ratings || {}).length) { const map = await index(); for (const [id, rating] of Object.entries(options.ratings)) if (Number.isInteger(rating) && rating >= 1 && rating <= 5) { const c = canonical(id); ratings.set(c, rating); const n = map.get(c); if (n !== undefined) ratings.set(n, rating); } }
       let favoriteOrdinals;
       if (collection === 'favorites') { const map = await index(); favoriteOrdinals = new Set([...favorites].map(id => map.get(id)).filter(n => n !== undefined)); }
       const custom = new Map(); for (const record of options.custom || []) if (record && typeof record.id === 'string') custom.set(canonical(record.id), record);
       const inlineRecords = [];
-      if ((!sectionActive || onlyCustom) && collection !== 'insight-timer') inlineRecords.push(...custom);
+      if ((!sectionActive || onlyCustom) && !showInsightTimer) inlineRecords.push(...custom);
       if ((!sectionActive || onlyInsightTimer) && collection !== 'mine' && collection !== 'goodreads') inlineRecords.push(...insightTimer);
       for (const [id, record] of inlineRecords) {
         if (collection === 'goodreads' && record.popularity?.source !== 'Goodreads') continue;
         if (topicActive && !(record.topics || []).includes(topic) || Number(record.minAge || 0) > maxAge || collection === 'favorites' && !favorites.has(id)) continue;
         const haystack = tokens([record.text, record.author, ...(record.topics || []), record.source, record.year ?? '', record.chronology?.label || '', record.chronology?.startYear ?? '', record.chronology?.endYear ?? ''].join(' '));
         if (!terms.every(term => haystack.some(word => word.startsWith(term)))) continue;
-        const order = insightTimer.has(id) ? custom.size + manifest.total + rows.length : rows.length;
+        const order = !showInsightTimer && insightTimer.has(id) ? custom.size + manifest.total + rows.length : rows.length;
         rows.push({ record, id, order, importance: ratings.get(id) ?? record.importance ?? 0, length: record.text.length, year: [1,2].includes(record.chronology?.version)&&record.chronology.kind!=='unknown'&&Number.isInteger(record.chronology.startYear)?record.chronology.startYear:record.year===0?32767:record.year ?? 32767, likes: record.likes ?? -1 });
       }
-      if (!onlyCustom && !onlyInsightTimer && collection !== 'mine' && collection !== 'insight-timer' && (!topicActive || topicIndex >= 0 && topicIndex < 64)) {
+      if (!onlyCustom && !onlyInsightTimer && collection !== 'mine' && (!topicActive || topicIndex >= 0 && topicIndex < 64)) {
         const found = terms.length ? await candidates(terms) : null;
         const visit = n => { const p = n * 32;
+          const rank = showInsightTimer ? relatedRanks.get(n) : undefined;
+          if (showInsightTimer && rank === undefined) return;
           if (membership && !membership.has(n)) return;
           if (view.getUint8(p + 24) > maxAge || favoriteOrdinals && !favoriteOrdinals.has(n)) return;
           if (topicActive && !(view.getUint32(p + (topicIndex < 32 ? 8 : 12), true) & (1 << (topicIndex % 32)))) return;
           if (custom.size && custom.has(idAt(n))) return;
           const indexedLikes = manifest.hasLikeCounts === true ? view.getUint32(p + 28, true) : 0xffffffff;
           if (collection === 'goodreads' && indexedLikes === 0xffffffff) return;
-          rows.push({ ordinal: n, order: custom.size + n, importance: ratings.get(n) ?? view.getUint8(p + 25), author: view.getUint32(p + 16, true), length: view.getUint16(p + 20, true), year: view.getInt16(p + 22, true), likes: indexedLikes === 0xffffffff ? -1 : indexedLikes });
+          const order = showInsightTimer ? insightTimer.size + rank : custom.size + n;
+          rows.push({ ordinal: n, order, importance: ratings.get(n) ?? view.getUint8(p + 25), author: view.getUint32(p + 16, true), length: view.getUint16(p + 20, true), year: view.getInt16(p + 22, true), likes: indexedLikes === 0xffffffff ? -1 : indexedLikes });
         };
-        if (found) found.forEach(visit); else for (let n = 0; n < manifest.total; n++) visit(n);
+        if (found) found.forEach(visit);
+        else if (showInsightTimer) for (const n of relatedRanks.keys()) visit(n);
+        else for (let n = 0; n < manifest.total; n++) visit(n);
       }
       const sort = options.sort || 'curated', authorNames = manifest.authorNames || (Array.isArray(manifest.authors) ? manifest.authors : null);
       const authorOf = row => row.record ? row.record.author : authorNames && authorNames[row.author] || '';

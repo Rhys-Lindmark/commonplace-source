@@ -50,7 +50,7 @@ The final library adds2,444 complete/printable quotes from Souradip Pal's CC0-la
 
 `dist/data/manifest.json` describes the release and facets. The32-byte-per-record catalog is metadata only; a reusable Worker searches prefix-sharded token postings and reads facets. Visible text loads in200-record chunks, with at most8record chunks and8postings dictionaries cached. Manifest+catalog startup is about3.7MB versus roughly143MiB of full corpus data. Actual-data tests measure filesystem-backed metadata operations; their milliseconds do not claim network/render performance. Selected/favorite/shelf snapshots remain independent of cache eviction.
 
-`data-insight-timer.json` contains a small selection of publicly documented Insight Timer Daily Quotes. Each entry links to its public record. After editing the selection, run `python3 scripts/build_sections.py` to refresh the deployed manifest.
+`data-insight-timer.json` contains six publicly documented Insight Timer Daily Quotes. Each links to its public record. `data-insight-timer-related.json` lists existing Commonplace quotes selected by sentence-embedding similarity using `all-MiniLM-L6-v2` and reviewed for thematic fit. The related entries keep their original IDs, authors, and sources. After editing either selection, run `python3 scripts/build_sections.py` to refresh the deployed manifest.
 
 ### Reproduce data
 

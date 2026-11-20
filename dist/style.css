@@ -8,7 +8,8 @@
 .quote-card blockquote.long{display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
 
 .collection-tabs{flex-wrap:wrap;row-gap:4px}.card-meta{line-height:1.6}
-.workbench,.library-area,.library-body,.quote-content,.quote-grid,.quote-card{min-width:0}.quote-card{max-width:100%}.quote-card blockquote{min-width:0;overflow-wrap:anywhere}.card-bottom>div{min-width:0}.card-meta{overflow-wrap:anywhere}@media(max-width:760px){.workbench{grid-template-columns:minmax(0,1fr)}}
+.workbench,.library-area,.library-body,.quote-content,.quote-grid,.quote-card{min-width:0}
+.collection-description{margin:0 0 12px;color:#516346;font-size:.75rem;line-height:1.45}.quote-card{max-width:100%}.quote-card blockquote{min-width:0;overflow-wrap:anywhere}.card-bottom>div{min-width:0}.card-meta{overflow-wrap:anywhere}@media(max-width:760px){.workbench{grid-template-columns:minmax(0,1fr)}}
 
 /* Cover editor: a single 5 × 8 face at every preview size. */
 .book-mockup,.edition-preview .book-mockup{aspect-ratio:5/8;padding:0;display:block;border:0;background:transparent;overflow:visible}
