@@ -65,6 +65,14 @@ async function run() {
   cf.fail.add('records/00006.json');await assert.rejects(client.resolve([cf.records[12].id]),/page of quotes/);cf.fail.delete('records/00006.json');assert.equal((await client.resolve([cf.records[12].id]))[0].id,cf.records[12].id);
   await client.resolve(cf.records.map(q=>q.id));assert.equal(client.chunks.values.size,8);assert.ok(cf.calls.filter(x=>x.key!=='manifest.json').every(x=>x.version==='fixture-v2'));
   cf.fail.add('manifest.json');const manifestRetry=new context.CommonplaceLibrary();await assert.rejects(manifestRetry.init(),/could not be opened/);cf.fail.delete('manifest.json');assert.equal((await manifestRetry.init()).total,20);manifestRetry.close();
+  const insightQuote={...f.records[0],id:'insight-timer-fixture'};
+  cf.manifest.insightTimer=[insightQuote];
+  const dailyClient=new context.CommonplaceLibrary();
+  await dailyClient.init();
+  assert.equal(dailyClient.getCached(insightQuote.id),insightQuote);
+  assert.equal((await dailyClient.resolve([insightQuote.id]))[0],insightQuote);
+  assert.deepEqual(Array.from(await dailyClient.hasIds([insightQuote.id,'missing'])),['missing']);
+  dailyClient.close();
   client.close();
   console.log('PASS: real metadata worker filters, normalized prefix AND search, high topic bits, aliases, personal ratings, custom quotes, stable paging, indexed Goodreads likes/collection and version guards, bounded LRUs, lazy client, concurrent request IDs, ordered resolves, release URLs, and failed-fetch retries.');
 }

@@ -10,6 +10,7 @@
   function intersect(a, b) { const out = []; let i = 0, j = 0; while (i < a.length && j < b.length) { if (a[i] === b[j]) { out.push(a[i]); i++; j++; } else if (a[i] < b[j]) i++; else j++; } return out; }
   function createEngine({ manifest, base, fetch: fetcher = scope.fetch.bind(scope) }) {
     const dictionaries = new LRU(8), pending = new Map(), prefixSet = new Set(manifest.searchPrefixes || []);
+    const insightTimer = new Map((manifest.insightTimer || []).map(record => [record.id, record]));
     const sectionDefinitions = new Map((manifest.browseGroups || []).flatMap(g => g.sections.map(s => [s.id, { ...s, topic: g.topic }]))), sectionCache = new LRU(8), sectionPending = new Map();
     async function sectionMembers(section) {
       const cached = sectionCache.get(section.id); if (cached) return cached;
@@ -34,7 +35,13 @@
       return 'cq-' + hex;
     }
     async function index() { await catalog(); if (!idIndex) { idIndex = new Map(); for (let n = 0; n < manifest.total; n++) idIndex.set(idAt(n), n); } return idIndex; }
-    async function resolve(ids) { const map = await index(); return ids.map(id => { const c = canonical(id), n = map.get(c); return n === undefined ? null : { id: c, ordinal: n }; }); }
+    async function resolve(ids) {
+      const map = await index();
+      return ids.map(id => {
+        const c = canonical(id), record = insightTimer.get(c), ordinal = map.get(c);
+        return record ? { record } : ordinal === undefined ? null : { id: c, ordinal };
+      });
+    }
     async function dictionary(prefix) {
       if (manifest.searchPrefixes && !prefixSet.has(prefix)) return {};
       const cached = dictionaries.get(prefix); if (cached) return cached;
@@ -52,8 +59,8 @@
       if (String(options.search || '').trim() && !terms.length) return { total: 0, page: 1, refs: [], message: 'Enter at least two letters or numbers to search.' };
       const topic = options.topic || 'All topics', topicIndex = (manifest.topics || []).findIndex(t => (typeof t === 'string' ? t : t.name) === topic), topicActive = topic !== 'All topics';
       const sectionId = options.section || '', section = sectionDefinitions.get(sectionId), sectionActive = !!sectionId;
-      const onlyCustom = sectionId === 'custom:' + topic, onlyLibrary = sectionId === 'library:' + topic;
-      if (sectionActive && (topicIndex < 0 || topicIndex >= 64 || (!onlyCustom && !onlyLibrary && (!section || section.topic !== topic)) || onlyLibrary && (manifest.topics[topicIndex].count || 0) > (manifest.sectionLimit || 10000))) return { total: 0, page: 1, refs: [] };
+      const onlyCustom = sectionId === 'custom:' + topic, onlyLibrary = sectionId === 'library:' + topic, onlyInsightTimer = sectionId === 'insight-timer:' + topic;
+      if (sectionActive && (topicIndex < 0 || topicIndex >= 64 || (!onlyCustom && !onlyLibrary && !onlyInsightTimer && (!section || section.topic !== topic)) || onlyLibrary && (manifest.topics[topicIndex].count || 0) > (manifest.sectionLimit || 10000))) return { total: 0, page: 1, refs: [] };
       const membership = section && section.topic === topic ? await sectionMembers(section) : null;
       const maxAge = options.age === 'all' || options.age == null ? Infinity : Number(options.age), collection = options.collection || 'all';
       const favorites = new Set((options.favorites || []).map(canonical)), ratings = new Map(), rows = [];
@@ -61,15 +68,18 @@
       let favoriteOrdinals;
       if (collection === 'favorites') { const map = await index(); favoriteOrdinals = new Set([...favorites].map(id => map.get(id)).filter(n => n !== undefined)); }
       const custom = new Map(); for (const record of options.custom || []) if (record && typeof record.id === 'string') custom.set(canonical(record.id), record);
-      for (const [id, record] of custom) {
-        if (sectionActive && !onlyCustom) continue;
+      const inlineRecords = [];
+      if ((!sectionActive || onlyCustom) && collection !== 'insight-timer') inlineRecords.push(...custom);
+      if ((!sectionActive || onlyInsightTimer) && collection !== 'mine' && collection !== 'goodreads') inlineRecords.push(...insightTimer);
+      for (const [id, record] of inlineRecords) {
         if (collection === 'goodreads' && record.popularity?.source !== 'Goodreads') continue;
         if (topicActive && !(record.topics || []).includes(topic) || Number(record.minAge || 0) > maxAge || collection === 'favorites' && !favorites.has(id)) continue;
         const haystack = tokens([record.text, record.author, ...(record.topics || []), record.source, record.year ?? '', record.chronology?.label || '', record.chronology?.startYear ?? '', record.chronology?.endYear ?? ''].join(' '));
         if (!terms.every(term => haystack.some(word => word.startsWith(term)))) continue;
-        rows.push({ record, id, order: rows.length, importance: ratings.get(id) ?? record.importance ?? 0, length: record.text.length, year: [1,2].includes(record.chronology?.version)&&record.chronology.kind!=='unknown'&&Number.isInteger(record.chronology.startYear)?record.chronology.startYear:record.year===0?32767:record.year ?? 32767, likes: record.likes ?? -1 });
+        const order = insightTimer.has(id) ? custom.size + manifest.total + rows.length : rows.length;
+        rows.push({ record, id, order, importance: ratings.get(id) ?? record.importance ?? 0, length: record.text.length, year: [1,2].includes(record.chronology?.version)&&record.chronology.kind!=='unknown'&&Number.isInteger(record.chronology.startYear)?record.chronology.startYear:record.year===0?32767:record.year ?? 32767, likes: record.likes ?? -1 });
       }
-      if (!onlyCustom && collection !== 'mine' && (!topicActive || topicIndex >= 0 && topicIndex < 64)) {
+      if (!onlyCustom && !onlyInsightTimer && collection !== 'mine' && collection !== 'insight-timer' && (!topicActive || topicIndex >= 0 && topicIndex < 64)) {
         const found = terms.length ? await candidates(terms) : null;
         const visit = n => { const p = n * 32;
           if (membership && !membership.has(n)) return;

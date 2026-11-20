@@ -88,8 +88,11 @@ def build_sections():
     manifest['browseGroups'] = groups
     manifest['sectionVersion'] = 1
     manifest['sectionLimit'] = LIMIT
+    insight_timer = (ROOT / 'data-insight-timer.json').read_bytes()
+    manifest['insightTimer'] = json.loads(insight_timer)
     digest = hashlib.sha256((data / manifest['catalog']).read_bytes() + rules_path.read_bytes())
     digest.update(str(manifest.get('dateAuditId', '')).encode())
+    digest.update(insight_timer)
     for path, raw in sorted(files.items()):
         digest.update(path.encode() + raw)
     manifest['release'] = digest.hexdigest()[:16]

@@ -1,6 +1,6 @@
 # Commonplace Press
 
-A browser-local commonplace book website: 102,444 bundled quotations from 19,332 authors across 34 subjects, search, topic and suggested-age filters, personal quotes, importance ratings, favorites, a reorderable book composer, saved editions, JSON backup and restore, and PDF downloads. The Goodreads collection includes 3,276 historical like counts and 2,444 added CC0-source quotes.
+A browser-local commonplace book website: 102,444 indexed quotations from 19,332 authors across 34 subjects, search, topic and suggested-age filters, personal quotes, importance ratings, favorites, a reorderable book composer, saved editions, JSON backup and restore, and PDF downloads. The Goodreads collection includes 3,276 historical like counts and 2,444 added CC0-source quotes. The library also includes a selection of Insight Timer Daily Quotes.
 
 ## Run
 
@@ -49,6 +49,8 @@ The QuoteKG v1.2 import accepts100,000 distinct, author-balanced English quotati
 The final library adds2,444 complete/printable quotes from Souradip Pal's CC0-labeled Goodreads export and has3,276 exact text+author-matched historical Goodreads counts. Abhishek Verma's2021 export and faellielupe's2020 SQLite export contribute matched numeric counts only; the latter's unclear compilation license is not used to import new text. The2021 export contains first-line fragments, so unmatched text is not imported. Invalid/partial outer wrappers are excluded from new quote text. See `work/expansion/GOODREADS.md`, the import reports and per-record provenance. Default ordering is Goodreads likes; missing counts remain null and sort last. The Goodreads tab shows records with imported counts only.
 
 `dist/data/manifest.json` describes the release and facets. The32-byte-per-record catalog is metadata only; a reusable Worker searches prefix-sharded token postings and reads facets. Visible text loads in200-record chunks, with at most8record chunks and8postings dictionaries cached. Manifest+catalog startup is about3.7MB versus roughly143MiB of full corpus data. Actual-data tests measure filesystem-backed metadata operations; their milliseconds do not claim network/render performance. Selected/favorite/shelf snapshots remain independent of cache eviction.
+
+`data-insight-timer.json` contains a small selection of publicly documented Insight Timer Daily Quotes. Each entry links to its public record. After editing the selection, run `python3 scripts/build_sections.py` to refresh the deployed manifest.
 
 ### Reproduce data
 

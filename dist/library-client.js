@@ -13,7 +13,7 @@
       this.manifest = null; this.initial = new Map(); this.chunks = new LRU(8); this.chunkPending = new Map(); this.pending = new Map(); this.sequence = 0; this.worker = null; this.initPromise = null; this.readyPromise = null;
     }
     async init() {
-      if (!this.initPromise) this.initPromise = (async () => { const r = await scope.fetch(new URL('manifest.json', this.base).href, { cache: 'no-cache' }); if (!r.ok) throw Error('The library could not be opened. Please retry.'); const m = await r.json(); if (m.version !== 2 || !Number.isInteger(m.total) || m.total < 0) throw Error('The library manifest is invalid.'); this.manifest = m; for (const q of m.initial || []) this.initial.set(q.id, q); return m; })().catch(e => { this.initPromise = null; throw e; });
+      if (!this.initPromise) this.initPromise = (async () => { const r = await scope.fetch(new URL('manifest.json', this.base).href, { cache: 'no-cache' }); if (!r.ok) throw Error('The library could not be opened. Please retry.'); const m = await r.json(); if (m.version !== 2 || !Number.isInteger(m.total) || m.total < 0) throw Error('The library manifest is invalid.'); this.manifest = m; for (const q of [...(m.initial || []), ...(m.insightTimer || [])]) this.initial.set(q.id, q); return m; })().catch(e => { this.initPromise = null; throw e; });
       return this.initPromise;
     }
     canonical(id) { const seen = new Set(), aliases = this.manifest && this.manifest.aliases || {}; while (Object.prototype.hasOwnProperty.call(aliases, id) && !seen.has(id)) { seen.add(id); id = aliases[id]; } return id; }

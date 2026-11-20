@@ -1,0 +1,209 @@
+[
+  {
+    "id": "insight-timer-virginia-woolf",
+    "text": "I am rooted, but I flow.",
+    "author": "Virginia Woolf",
+    "year": 1931,
+    "topics": [
+      "Poetry",
+      "Wisdom"
+    ],
+    "minAge": 10,
+    "importance": 3,
+    "likes": null,
+    "source": "Insight Timer Daily Quote",
+    "sourceUrl": "https://bloggingwoolf.org/2022/12/12/virginia-woolf-as-meditation-inspiration/",
+    "verified": true,
+    "provenance": {
+      "dataset": "Insight Timer",
+      "sourceUrl": "https://bloggingwoolf.org/2022/12/12/virginia-woolf-as-meditation-inspiration/"
+    },
+    "chronology": {
+      "version": 2,
+      "kind": "work",
+      "startYear": 1931,
+      "endYear": 1931,
+      "approximate": false,
+      "label": "The Waves, 1931",
+      "evidence": "linked-work",
+      "sourceUrls": [
+        "https://gutenberg.net.au/ebooks02/0201091h.html"
+      ],
+      "note": "Jinny says this in The Waves, first published in 1931.",
+      "reviewed": true
+    }
+  },
+  {
+    "id": "insight-timer-natalie-goldberg",
+    "text": "Trust in what you love, continue to do it, and it will take you where you need to go.",
+    "author": "Natalie Goldberg",
+    "year": 1986,
+    "topics": [
+      "Writing",
+      "Courage",
+      "Inspiration"
+    ],
+    "minAge": 8,
+    "importance": 3,
+    "likes": null,
+    "source": "Insight Timer Daily Quote",
+    "sourceUrl": "https://www.linkedin.com/posts/kathyhadizadeh_laborday-labordayweekend-professionals-activity-7368349204517187586-Bjen",
+    "verified": true,
+    "provenance": {
+      "dataset": "Insight Timer",
+      "sourceUrl": "https://www.linkedin.com/posts/kathyhadizadeh_laborday-labordayweekend-professionals-activity-7368349204517187586-Bjen"
+    },
+    "chronology": {
+      "version": 2,
+      "kind": "work",
+      "startYear": 1986,
+      "endYear": 1986,
+      "approximate": false,
+      "label": "Writing Down the Bones, 1986",
+      "evidence": "linked-work",
+      "sourceUrls": [
+        "https://www.everand.com/book/770586378/Writing-Down-the-Bones-Freeing-the-Writer-Within"
+      ],
+      "note": "From the introduction to Writing Down the Bones, first published in 1986.",
+      "reviewed": true
+    }
+  },
+  {
+    "id": "insight-timer-henri-nouwen",
+    "text": "Joy does not simply happen to us. We have to choose joy and keep choosing it every day.",
+    "author": "Henri Nouwen",
+    "year": 1994,
+    "topics": [
+      "Happiness",
+      "Spirituality"
+    ],
+    "minAge": 8,
+    "importance": 3,
+    "likes": null,
+    "source": "Insight Timer Daily Quote",
+    "sourceUrl": "https://www.lynnholbein.com/2026/10/04/cultivating-joy/",
+    "verified": false,
+    "provenance": {
+      "dataset": "Insight Timer",
+      "sourceUrl": "https://www.lynnholbein.com/2026/10/04/cultivating-joy/"
+    },
+    "chronology": {
+      "version": 2,
+      "kind": "work",
+      "startYear": 1994,
+      "endYear": 1994,
+      "approximate": false,
+      "label": "Here and Now, 1994",
+      "evidence": "linked-work",
+      "sourceUrls": [
+        "https://graciousquotes.com/quotes-with-sources/henri-nouwen/"
+      ],
+      "note": "The passage is attributed to Here and Now: Living in the Spirit, first published in 1994.",
+      "reviewed": true
+    }
+  },
+  {
+    "id": "insight-timer-esther-perel",
+    "text": "The quality of your life ultimately depends on the quality of your relationships.",
+    "author": "Esther Perel",
+    "year": null,
+    "topics": [
+      "Relationships",
+      "Friendship"
+    ],
+    "minAge": 10,
+    "importance": 3,
+    "likes": null,
+    "source": "Insight Timer Daily Quote",
+    "sourceUrl": "https://www.nicholjoychase.com/blog/nichol-s-tips-mayurasana-peacock-pose-quality-relationships-and-flipping-bending",
+    "verified": false,
+    "provenance": {
+      "dataset": "Insight Timer",
+      "sourceUrl": "https://www.nicholjoychase.com/blog/nichol-s-tips-mayurasana-peacock-pose-quality-relationships-and-flipping-bending"
+    },
+    "chronology": {
+      "version": 2,
+      "kind": "source-context",
+      "startYear": 2019,
+      "endYear": 2019,
+      "approximate": false,
+      "label": "Letters from Esther, 2019",
+      "evidence": "linked-attestation",
+      "sourceUrls": [
+        "https://www.estherperel.com/blog/july-2019-letters-from-esther-connection"
+      ],
+      "note": "Perel expresses the same idea in slightly different words in her July 2019 newsletter.",
+      "reviewed": true
+    }
+  },
+  {
+    "id": "insight-timer-mariame-kaba",
+    "text": "Hope is a discipline.",
+    "author": "Mariame Kaba",
+    "year": null,
+    "topics": [
+      "Hope",
+      "Courage",
+      "Politics"
+    ],
+    "minAge": 10,
+    "importance": 3,
+    "likes": null,
+    "source": "Insight Timer Daily Quote",
+    "sourceUrl": "https://www.unbridledwayforward.com/post/hope-is-a-discipline",
+    "verified": true,
+    "provenance": {
+      "dataset": "Insight Timer",
+      "sourceUrl": "https://www.unbridledwayforward.com/post/hope-is-a-discipline"
+    },
+    "chronology": {
+      "version": 2,
+      "kind": "source-context",
+      "startYear": 2018,
+      "endYear": 2018,
+      "approximate": false,
+      "label": "Beyond Prisons interview, 2018",
+      "evidence": "linked-attestation",
+      "sourceUrls": [
+        "https://www.beyond-prisons.com/home/hope-is-a-discipline-feat-mariame-kaba"
+      ],
+      "note": "Kaba discusses this phrase in her January 2018 interview on Beyond Prisons.",
+      "reviewed": true
+    }
+  },
+  {
+    "id": "insight-timer-desmond-tutu",
+    "text": "My humanity is bound up in yours. For we can only be human together.",
+    "author": "Desmond Tutu",
+    "year": null,
+    "topics": [
+      "Relationships",
+      "Spirituality",
+      "Wisdom"
+    ],
+    "minAge": 10,
+    "importance": 3,
+    "likes": null,
+    "source": "Insight Timer Daily Quote",
+    "sourceUrl": "https://www.linkedin.com/posts/elizabeth-goodwin-welborn-8322708_thanks-insight-timer-for-a-reminder-of-activity-7423795840420552705-oVtU",
+    "verified": false,
+    "provenance": {
+      "dataset": "Insight Timer",
+      "sourceUrl": "https://www.linkedin.com/posts/elizabeth-goodwin-welborn-8322708_thanks-insight-timer-for-a-reminder-of-activity-7423795840420552705-oVtU"
+    },
+    "chronology": {
+      "version": 2,
+      "kind": "source-context",
+      "startYear": 2026,
+      "endYear": 2026,
+      "approximate": false,
+      "label": "Insight Timer repost, 2026",
+      "evidence": "linked-attestation",
+      "sourceUrls": [
+        "https://www.linkedin.com/posts/elizabeth-goodwin-welborn-8322708_thanks-insight-timer-for-a-reminder-of-activity-7423795840420552705-oVtU"
+      ],
+      "note": "The linked screenshot was shared in 2026. The original date of this wording is uncertain.",
+      "reviewed": true
+    }
+  }
+]
